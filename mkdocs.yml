@@ -52,11 +52,25 @@ nav:
   - Emotional Intelligence:
       - Overview: eq/index.md
       - Mayer–Salovey ability model: eq/mayer-salovey-ability-model.md
+      - Goleman's mixed model: eq/goleman-mixed-model.md
+      - Trait EI (Petrides): eq/trait-ei.md
+      - Bar-On model & EQ-i: eq/bar-on-model.md
+      - The MSCEIT: eq/msceit.md
       - Gross's process model: eq/gross-process-model-of-emotion-regulation.md
       - Reappraisal vs. suppression: eq/reappraisal-vs-suppression.md
       - Affect labeling: eq/affect-labeling.md
       - Emotional granularity: eq/emotional-granularity.md
+      - Theory of constructed emotion: eq/theory-of-constructed-emotion.md
+      - Alexithymia: eq/alexithymia.md
+      - Empathy types: eq/empathy-types.md
+      - Theory of mind: eq/theory-of-mind.md
+      - Emotional contagion: eq/emotional-contagion.md
+      - Mirror neurons: eq/mirror-neurons.md
       - Gottman ratio & Four Horsemen: eq/gottman-ratio-and-four-horsemen.md
+      - Active listening (Rogers): eq/active-listening-rogers.md
+      - Nonviolent Communication: eq/nonviolent-communication.md
+      - Polyvagal theory: eq/polyvagal-theory.md
+      - The marshmallow test: eq/marshmallow-test.md
   - Relationships:
       - Overview: relationships/index.md
       - The value-exchange model: relationships/the-value-exchange-model.md

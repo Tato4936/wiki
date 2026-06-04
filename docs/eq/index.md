@@ -14,10 +14,10 @@ Status flags: ✅ well-supported · ⚠️ mixed / limited evidence · ⛔ conte
 
 ### A · Models of EI — what "EQ" even means
 - [Mayer–Salovey ability model](mayer-salovey-ability-model.md) ✅ — the dominant, ability-based definition
-- Goleman mixed model ⚠️ *(backlog)*
-- Trait EI / Petrides (TEIQue) ✅⚠️ *(backlog)*
-- Bar-On model & EQ-i ⚠️ *(backlog)*
-- MSCEIT, the ability test ⚠️ *(backlog)*
+- [Goleman's mixed model](goleman-mixed-model.md) ⚠️ — the famous popularization; watch the overclaims
+- [Trait EI (Petrides)](trait-ei.md) ✅⚠️ — self-perceived EI; a personality trait, not an ability
+- [Bar-On model & the EQ-i](bar-on-model.md) ⚠️ — the early self-report inventory that coined "EQ"
+- [The MSCEIT](msceit.md) ⚠️ — the performance test of the ability model, and its scoring controversy
 
 ### B · Emotion regulation — what to do with feelings
 - [Gross's process model](gross-process-model-of-emotion-regulation.md) ✅ — the standard framework
@@ -26,38 +26,26 @@ Status flags: ✅ well-supported · ⚠️ mixed / limited evidence · ⛔ conte
 
 ### C · Awareness — the upstream perception skill
 - [Emotional granularity](emotional-granularity.md) ✅ — finer emotion vocabulary, better regulation
-- Theory of constructed emotion (Barrett) ⚠️ *(backlog)*
-- Alexithymia ✅ *(backlog)*
+- [Theory of constructed emotion](theory-of-constructed-emotion.md) ⚠️ — Barrett vs. basic-emotion theory (a live debate)
+- [Alexithymia](alexithymia.md) ✅ — the low end of emotional awareness
 
 ### D · Empathy & social cognition
-- Cognitive vs. affective vs. compassionate empathy ✅ *(backlog)*
-- Theory of mind / mentalizing ✅ *(backlog)*
-- Emotional contagion ✅ *(backlog)*
-- Mirror neurons as the basis of empathy ⛔ *(backlog)*
+- [Empathy: cognitive / affective / compassionate](empathy-types.md) ✅ — three different things, often conflated
+- [Theory of mind](theory-of-mind.md) ✅ — modeling other minds; the engine of cognitive empathy
+- [Emotional contagion](emotional-contagion.md) ✅ — moods spread automatically
+- [Mirror neurons](mirror-neurons.md) ⛔ — the overhyped "empathy neuron" claim
 
 ### E · Applied / interpersonal
 - [Gottman ratio & Four Horsemen](gottman-ratio-and-four-horsemen.md) ✅⚠️ — what predicts relationship failure
-- Active listening / Rogers' conditions ✅ *(backlog)*
-- Nonviolent Communication (Rosenberg) ⚠️ *(backlog)*
+- [Active listening (Rogers)](active-listening-rogers.md) ✅ — the core conditions that make people feel heard
+- [Nonviolent Communication](nonviolent-communication.md) ⚠️ — the OFNR template; useful, modest evidence
 
 ### F · Contested classics — included as cautionary notes
-- Polyvagal theory ⛔ *(backlog)*
-- Marshmallow test / delayed gratification ⛔ *(backlog)*
+- [Polyvagal theory](polyvagal-theory.md) ⛔ — popular in trauma circles; the physiology is disputed
+- [The marshmallow test](marshmallow-test.md) ⛔ — the long-term "willpower" claims largely failed to replicate
 
 ## Backlog
 
-Notes not yet written, roughly in priority order. An **ingest** moves an item up into the Map above.
-
-| Note | Cluster | Status | Why / when |
-|------|---------|--------|------------|
-| Goleman mixed model | A | ⚠️ | Contrast with the ability model; debunk the "EQ > IQ" overclaim |
-| Trait EI / Petrides | A | ✅⚠️ | The self-report tradition; clarify ability vs. trait |
-| Theory of constructed emotion | C | ⚠️ | Barrett vs. basic-emotion theory — present as a live debate |
-| Cognitive / affective / compassionate empathy | D | ✅ | High applied payoff; empathy-vs-compassion distinction |
-| Active listening / Rogers | E | ✅ | Foundational interpersonal skill |
-| Nonviolent Communication | E | ⚠️ | Useful framework; label the modest evidence base honestly |
-| Mirror neurons | D | ⛔ | Caution note: real in macaques, overhyped for human empathy |
-| Polyvagal theory | F | ⛔ | Caution note: explain why it is physiologically disputed |
-| Marshmallow test | F | ⛔ | Caution note: the long-term claims largely failed to replicate |
-| Alexithymia | C | ✅ | Rounds out the awareness cluster |
-| MSCEIT internals | A | ⚠️ | How the ability model is actually measured |
+The seeded EQ concepts are now **fully ingested** — every cluster above is written. New concepts get added
+here as they come up (e.g. a dedicated **avoidant attachment** note, currently cross-referenced from
+[Partner archetypes](../relationships/partner-archetypes.md)).

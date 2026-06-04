@@ -32,3 +32,17 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
 - Updated section Map (source fully ingested), `nav`, and backlog (now: an avoidant-attachment EQ note +
   a `source: me` EQ-vs-value-exchange counterweight).
 - `mkdocs build --strict`: pass.
+
+## 2026-06-03 — Ingest (full): Emotional Intelligence backlog
+
+- Wrote **14 `source: cited` notes** clearing the entire EQ section backlog, across clusters A–F: Goleman
+  mixed model, Trait EI (Petrides), Bar-On / EQ-i, MSCEIT (Models of EI); Theory of constructed emotion,
+  Alexithymia (Awareness); Empathy types, Theory of mind, Emotional contagion, Mirror neurons (Empathy);
+  Active listening (Rogers), Nonviolent Communication (Applied); Polyvagal theory, Marshmallow test
+  (Contested classics).
+- Each carries real citations and calibrated confidence; the contested/⛔ items (mirror neurons, polyvagal,
+  marshmallow, plus the constructed-emotion debate) carry "Contested" admonitions explaining *why*, rather
+  than asserting them.
+- Moved every item from the `eq/index.md` Backlog into the linked Map; added all 14 to `nav`.
+- Backlog now effectively empty (one cross-section item remains: a dedicated avoidant-attachment note).
+- `mkdocs build --strict`: pass.
