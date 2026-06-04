@@ -60,3 +60,15 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   liking, specific compliments.
 - Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables.
 - `mkdocs build --strict`: pass.
+
+## 2026-06-04 — Ingest: all section backlogs
+
+- Connection backlog (6): vulnerability loop (Coyle/Brown), similarity & mere exposure (Zajonc/Moreland),
+  the Franklin effect (Jecker & Landy), the pratfall effect (Aronson), Cialdini's liking principle,
+  specific compliments (Boothby & Bohns + Carnegie). Connection map gained a 4th cluster ("the quieter
+  forces"); backlog now caught up.
+- EQ/Relationships shared item: wrote **Attachment styles** (`eq/attachment-styles.md`; Hazan & Shaver,
+  Bartholomew & Horowitz) — secure / anxious / avoidant / fearful; linked from Partner archetypes.
+- **Skipped** the relationships "EQ counterweight" item — it's `source: me`, Ronald's to author.
+- Updated eq/index + relationships/index backlogs, `nav`, and the partner-archetypes backlink.
+- `mkdocs build --strict`: pass.

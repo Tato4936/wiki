@@ -34,6 +34,7 @@ Status flags: ✅ well-supported · ⚠️ mixed / limited evidence · ⛔ conte
 - [Theory of mind](theory-of-mind.md) ✅ — modeling other minds; the engine of cognitive empathy
 - [Emotional contagion](emotional-contagion.md) ✅ — moods spread automatically
 - [Mirror neurons](mirror-neurons.md) ⛔ — the overhyped "empathy neuron" claim
+- [Attachment styles](attachment-styles.md) ✅ — secure / anxious / avoidant patterns in close relationships
 
 ### E · Applied / interpersonal
 - [Gottman ratio & Four Horsemen](gottman-ratio-and-four-horsemen.md) ✅⚠️ — what predicts relationship failure
@@ -46,6 +47,5 @@ Status flags: ✅ well-supported · ⚠️ mixed / limited evidence · ⛔ conte
 
 ## Backlog
 
-The seeded EQ concepts are now **fully ingested** — every cluster above is written. New concepts get added
-here as they come up (e.g. a dedicated **avoidant attachment** note, currently cross-referenced from
-[Partner archetypes](../relationships/partner-archetypes.md)).
+The seeded EQ concepts are fully ingested — every cluster above is written. New concepts get added here as
+they come up.

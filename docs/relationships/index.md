@@ -40,5 +40,6 @@ the rest apply it to meeting, choosing, communicating, and marriage.
 
 | Note | Cluster | Status | Why / when |
 |------|---------|--------|------------|
-| Avoidant attachment | EQ | ✅ | Promote the real construct (loosely used in [Partner archetypes](partner-archetypes.md)) into its own evidence-based EQ note |
-| EQ counterweight | EQ ↔ relationships | ✅ | A `source: me` note on where the value-exchange worldview clashes with the emotion research |
+| EQ counterweight | EQ ↔ relationships | ✅ | A `source: me` note (yours to write) on where the value-exchange worldview clashes with the emotion research |
+
+*(Avoidant attachment → written up as [Attachment styles](../eq/attachment-styles.md).)*

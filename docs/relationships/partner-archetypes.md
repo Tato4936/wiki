@@ -41,7 +41,7 @@ mating strategies) and **pop psychoanalysis** (the second-gen's "patricide compl
 
 ## The one genuinely useful thread: avoidant attachment
 
-The "steady professional" sketch is really a folk description of **avoidant attachment** — someone
+The "steady professional" sketch is really a folk description of [**avoidant attachment**](../eq/attachment-styles.md) — someone
 raised to suppress emotional expression, who needs space, dislikes conflict, and reads as "cold"
 without being uncaring. That maps (loosely) onto a real construct from attachment theory, and the
 practical takeaway is reasonable: *don't escalate conflict to force closeness from an avoidant
