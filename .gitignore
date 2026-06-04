@@ -1,6 +1,9 @@
 # MkDocs build output
 site/
 
+# Raw source material (copyrighted PDFs etc.) — keep local, never publish
+sources/**/*.pdf
+
 # Virtual environment
 venv/
 .venv/

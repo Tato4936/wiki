@@ -1,11 +1,12 @@
 site_name: Wiki
 site_description: A lean personal knowledge base — synthesis and curated sources, not encyclopedia summaries.
 site_author: Ronald Liu
-# site_url: ""   # set this when deploying (e.g. GitHub Pages)
+site_url: https://rliu4936.github.io/wiki/
 strict: true     # fail the build on a broken internal link or a nav entry pointing nowhere
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -56,6 +57,14 @@ nav:
       - Affect labeling: eq/affect-labeling.md
       - Emotional granularity: eq/emotional-granularity.md
       - Gottman ratio & Four Horsemen: eq/gottman-ratio-and-four-horsemen.md
+  - Relationships:
+      - Overview: relationships/index.md
+      - The value-exchange model: relationships/the-value-exchange-model.md
+      - Where to meet partners: relationships/where-to-meet-partners.md
+      - Partner archetypes: relationships/partner-archetypes.md
+      - Texting & conversation: relationships/texting-and-conversation.md
+      - Infidelity (fact-checked): relationships/infidelity-prevention.md
+      - Marriage & financial power: relationships/marriage-and-financial-power.md
   - About:
       - Conventions: about/conventions.md
   - Tags: tags.md

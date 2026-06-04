@@ -31,5 +31,7 @@ See [Conventions](about/conventions.md) for the full note template.
 
 - [**Emotional Intelligence**](eq/index.md) — the psychology of emotion: models of EI, regulation,
   awareness, empathy, and what to actually *do*.
+- [**Relationships**](relationships/index.md) — dating strategy, communication, and partnership,
+  captured critically (provenance + confidence, not endorsement).
 
-*Planned: corporate & quantitative finance, investing, relationships, success.*
+*Planned: corporate & quantitative finance, investing, success.*
