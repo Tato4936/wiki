@@ -33,6 +33,8 @@ See [Conventions](about/conventions.md) for the full note template.
   awareness, empathy, and what to actually *do*.
 - [**Connection & rapport**](connection/index.md) — applied interpersonal techniques for being liked,
   building rapport, and deepening relationships.
+- [**Body language**](body-language/index.md) — the nonverbal channel: what genuinely builds rapport, and
+  the pop-psych myths to ignore.
 - [**Relationships**](relationships/index.md) — dating strategy, communication, and partnership,
   captured critically (provenance + confidence, not endorsement).
 

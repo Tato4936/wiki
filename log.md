@@ -72,3 +72,18 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
 - **Skipped** the relationships "EQ counterweight" item — it's `source: me`, Ronald's to author.
 - Updated eq/index + relationships/index backlogs, `nav`, and the partner-archetypes backlink.
 - `mkdocs build --strict`: pass.
+
+## 2026-06-04 — New section: Body language
+
+- Ronald asked to add body language. Created section **`body-language/`** (tier: `draft-with-review`;
+  coverage: `thorough`) with **9 cited notes**, deliberately leading with myth-busting since the topic is
+  myth-heavy.
+- Myths (⛔): the "93% nonverbal" Mehrabian misquote, power posing (failed replication / author walk-back),
+  lie-detection from body language (~54% accuracy). Rapport (✅): nonverbal synchrony / chameleon effect,
+  open body-language / immediacy cluster, the Duchenne smile, eye contact. Channels (✅): vocal tone
+  (paralinguistics), proxemics.
+- Cross-linked to Connection (mirroring, lead-with-warmth, 36 questions, labeling) and EQ (emotional
+  contagion, theory of mind). Backlog: microexpressions, thin-slicing, gestures & culture, haptics,
+  embodiment.
+- Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables.
+- `mkdocs build --strict`: pass.
