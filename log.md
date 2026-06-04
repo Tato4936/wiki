@@ -102,3 +102,16 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   offshore.
 - Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables.
 - `mkdocs build --strict`: pass.
+
+## 2026-06-04 — Connection & rapport: high-quality expansion (+9)
+
+- Ronald asked to keep ingesting high-quality Connection material. Added **9 cited notes** from top
+  sources: perceived partner responsiveness (Reis/Gable — new "core" anchor), the matching principle &
+  looping for understanding (Duhigg, *Supercommunicators*), support-vs-shift response (Derber),
+  contrasting (*Crucial Conversations*), intent-vs-impact (*Difficult Conversations*), affectionate
+  teasing (Keltner), the peak-end rule (Kahneman), self-expansion (Aron).
+- Reorganized the section map into 6 clusters (added **The core** and **When it gets tense — repair**);
+  reordered `nav` to match so Prev/Next reads logically. Section now ~25 notes.
+- Refreshed backlog: gratitude (Algoe), accusation audit, "that's right" vs "you're right", getting to
+  "no", saving face (Goffman), the Michelangelo phenomenon, the five love languages (⚠️).
+- `mkdocs build --strict`: pass.
