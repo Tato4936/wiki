@@ -117,10 +117,36 @@ mkdocs build --strict     # must exit 0
 
 `--strict` is the safety net: it fails on broken internal links and on any doc missing from `nav`.
 
-## 9. Future (documented, not built yet)
+## 9. Deployment & hosting
+
+The site is **live and auto-deploys**: every push to `main` runs `.github/workflows/deploy.yml`,
+which builds with `mkdocs build --strict` and publishes to GitHub Pages.
+
+- **Live URL:** <https://tato4936.github.io/wiki/>
+- **Repo:** `github.com/Tato4936/wiki` (public, pseudonymous — deliberately **not** under the main
+  `rliu4936` account).
+- **`noindex`:** `overrides/main.html` adds a `robots: noindex` tag (kept out of search results).
+- **Source PDFs stay local:** `sources/**/*.pdf` is git-ignored; raw material is never published.
+
+### GitHub account switching (IMPORTANT before any push)
+
+This repo lives under the **`Tato4936`** account, but `gh` may be active as `rliu4936` (the main
+account). Before pushing, make `Tato4936` active; switch back when done:
+
+```bash
+gh auth switch -u Tato4936     # before pushing the wiki / any gh op on this repo
+git push                       # triggers the auto-deploy
+gh auth switch -u rliu4936     # back to the main account afterwards
+```
+
+Both accounts stay logged in; this only flips which one git/gh uses. A push that fails with a
+permissions / 403 error almost always means the wrong account is active — switch and retry.
+
+## 10. Future (documented, not built yet)
 
 - **Scheduling** Ingest / Lint via cron or the `/schedule` skill (start manual; automate only what has
   earned trust).
-- **Deployment** to GitHub Pages (`site_url` + `mkdocs gh-deploy`).
+- **Private hosting** option: flip the repo to private + gate the site behind Cloudflare Access if it
+  should be viewable only by the owner.
 - Optional **`[[wikilink]]`** support via `mkdocs-roamlinks-plugin` if authoring ergonomics demand it.
-- New sections: corporate & quantitative finance, investing, relationships, success.
+- New sections: corporate & quantitative finance, investing, success.
