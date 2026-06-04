@@ -24,6 +24,7 @@ theme:
     - navigation.tracking
     - navigation.top
     - navigation.sections
+    - navigation.footer        # Previous / Next links at the bottom of each page
     - toc.follow
     - search.suggest
     - search.highlight
