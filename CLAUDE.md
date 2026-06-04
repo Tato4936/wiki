@@ -60,7 +60,7 @@ How much Claude may do **without Ronald**, per section. Autonomy scales with how
 Rule of thumb: **start manual; ratchet a section UP only after its output has earned trust.** Default
 new sections to `structure-only` or `draft-with-review`, never `autonomous`.
 
-## 5. Note format
+## 5. Note format, depth & coverage
 
 - Follow the canonical template in `docs/about/conventions.md` exactly (front matter, TL;DR, a visible
   provenance/confidence line, What it is, How to apply, Sources, Related).
@@ -71,6 +71,38 @@ new sections to `structure-only` or `draft-with-review`, never `autonomous`.
 - Add **reciprocal backlinks**: if note A links to B, add A to B's "Related" too.
 - Never link to unpublished files (`CLAUDE.md`, `sources/`, `log.md`) from a `docs/` page — it breaks
   the strict build.
+
+### Depth (how much a note says) — default: **lean / one-screen**
+
+- A note is a **reference card, not an essay.** Target: a stand-alone TL;DR + a body of roughly
+  **150–400 words** + a concrete "How to apply." If it grows past ~one screen, **split it or cut** — do
+  not expand.
+- Explain the **core mechanism + the single most important nuance/caveat**, then **link out** instead of
+  covering every sub-finding. Breadth comes from *more linked notes*, not longer ones.
+- This matches the wiki's whole point (lean, low-weight, cp-algorithms-style). When in doubt, shorter.
+
+### Granularity (one note or many) — default: **atomic**
+
+- **One concept per note.** Split when a note carries two separable "How to apply" payloads, or when you'd
+  ever want to link to *just one half* of it. Merge when a sub-concept can't stand on its own.
+
+### Coverage (how exhaustive a section gets) — default: **anchors**
+
+Set per section, like the autonomy tier (§4). Levels:
+
+- `anchors` *(default for new sections)* — only the **load-bearing concepts you'd actually use**, then
+  stop. Keeps sections small and honors the value rule.
+- `thorough` — the **full standard map** a practitioner should know.
+- `exhaustive` — everything, incl. niche / historical / contested. Use sparingly; high filler risk.
+
+| Section | Coverage |
+|---------|----------|
+| `eq/` | `thorough` (the full EI map) |
+| `relationships/` | source-bounded (covers the ingested source; otherwise `anchors`) |
+| *new sections* | `anchors` until Ronald says otherwise |
+
+**"Done" signal:** a section is done-for-now when its Map covers its coverage tier; anything beyond sits
+in the **Backlog**, not the Map. Never pad a section to feel complete (value rule, §2).
 
 ## 6. Operation — INGEST
 
@@ -85,8 +117,9 @@ Run when Ronald says "ingest" or drops material into `inbox.md` / `sources/`.
    - `draft-with-review`: create the note as a visible **DRAFT** (`source: claude`, or `cited` if a
      real source is attached); set confidence honestly; do **not** merge silently.
    - `autonomous`: may research, draft, and finalize.
-5. Fill the template fully: TL;DR, body, How to apply, **real** Sources (never fabricate citations),
-   Related (with reciprocal backlinks).
+5. Fill the template at the **§5 depth default (lean / one-screen)**: TL;DR, body, How to apply, **real**
+   Sources (never fabricate citations), Related (with reciprocal backlinks). Stay within the section's
+   **coverage** tier (§5) — don't expand beyond it.
 6. Update `docs/<section>/index.md` (move the item from Backlog into the Map) and the home catalog in
    `docs/index.md` if a new section appeared.
 7. Add the page to `nav:` in `mkdocs.yml`.
