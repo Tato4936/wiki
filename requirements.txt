@@ -1,0 +1,8 @@
+# Static site generator (pure Python; no Node required)
+mkdocs>=1.6
+
+# Theme — bundles the built-in search + tags plugins
+mkdocs-material>=9.5
+
+# Optional future: [[wikilink]] support. Leave commented until authoring ergonomics demand it.
+# mkdocs-roamlinks-plugin

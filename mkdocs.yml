@@ -1,0 +1,61 @@
+site_name: Wiki
+site_description: A lean personal knowledge base — synthesis and curated sources, not encyclopedia summaries.
+site_author: Ronald Liu
+# site_url: ""   # set this when deploying (e.g. GitHub Pages)
+strict: true     # fail the build on a broken internal link or a nav entry pointing nowhere
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle: { icon: material/weather-night, name: Switch to dark mode }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle: { icon: material/weather-sunny, name: Switch to light mode }
+  font: { text: Inter, code: JetBrains Mono }
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tooltips
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight: { anchor_linenums: true }
+  - pymdownx.inlinehilite
+  - footnotes
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - toc: { permalink: true }
+
+nav:
+  - Home: index.md
+  - Emotional Intelligence:
+      - Overview: eq/index.md
+      - Mayer–Salovey ability model: eq/mayer-salovey-ability-model.md
+      - Gross's process model: eq/gross-process-model-of-emotion-regulation.md
+      - Reappraisal vs. suppression: eq/reappraisal-vs-suppression.md
+      - Affect labeling: eq/affect-labeling.md
+      - Emotional granularity: eq/emotional-granularity.md
+      - Gottman ratio & Four Horsemen: eq/gottman-ratio-and-four-horsemen.md
+  - About:
+      - Conventions: about/conventions.md
+  - Tags: tags.md
