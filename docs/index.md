@@ -31,6 +31,8 @@ See [Conventions](about/conventions.md) for the full note template.
 
 - [**Emotional Intelligence**](eq/index.md) — the psychology of emotion: models of EI, regulation,
   awareness, empathy, and what to actually *do*.
+- [**Connection & rapport**](connection/index.md) — applied interpersonal techniques for being liked,
+  building rapport, and deepening relationships.
 - [**Relationships**](relationships/index.md) — dating strategy, communication, and partnership,
   captured critically (provenance + confidence, not endorsement).
 

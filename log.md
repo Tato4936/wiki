@@ -46,3 +46,17 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
 - Moved every item from the `eq/index.md` Backlog into the linked Map; added all 14 to `nav`.
 - Backlog now effectively empty (one cross-section item remains: a dedicated avoidant-attachment note).
 - `mkdocs build --strict`: pass.
+
+## 2026-06-04 — New section: Connection & rapport
+
+- Ronald wanted more **applied interpersonal** technique (like the active-listening note) — "make people
+  like me / bring relationships closer," incl. book techniques like Voss's "It seems like…".
+- Created section **`connection/`** (tier: `draft-with-review`; coverage: `thorough`) with **10 cited
+  notes**: labeling, mirroring, calibrated questions (Voss); active-constructive responding (Gable); the
+  36 questions (Aron); ask follow-up questions (Huang et al.); lead with warmth (Fiske/Cuddy); genuine
+  interest (Carnegie); validation (Linehan/DBT); bids for connection (Gottman).
+- Lean depth, real citations, cross-linked to EQ (active listening, affect labeling, empathy, NVC,
+  Gottman). Backlog: vulnerability loop, similarity/mere-exposure, Franklin/pratfall effects, Cialdini
+  liking, specific compliments.
+- Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables.
+- `mkdocs build --strict`: pass.

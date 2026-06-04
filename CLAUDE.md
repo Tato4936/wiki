@@ -54,6 +54,7 @@ How much Claude may do **without Ronald**, per section. Autonomy scales with how
 |---------|------|-------------|
 | `eq/` (Emotional Intelligence) | `draft-with-review` | research + draft notes as **DRAFT** (`source: claude`, or `cited` with a real source); **never auto-merge**; Ronald reviews and sets final provenance. |
 | `relationships/` | `draft-with-review` | draft from a **specific cited source** as **DRAFT**; flag worldview + lack of evidence; **never auto-merge**; Ronald reviews and sets final provenance. |
+| `connection/` (Connection & rapport) | `draft-with-review` | draft applied techniques from **specific cited sources** (books / research) as **DRAFT**; **never auto-merge**; Ronald reviews and sets final provenance. |
 | *future* soft topics (`success/`) | `structure-only` | only file/format what Ronald dropped in `inbox.md`; **author no claims**. |
 | *future* externally-checkable topics (e.g. tool/reference docs) | `autonomous` | research, draft, and finalize. |
 
@@ -98,6 +99,7 @@ Set per section, like the autonomy tier (§4). Levels:
 | Section | Coverage |
 |---------|----------|
 | `eq/` | `thorough` (the full EI map) |
+| `connection/` | `thorough` (applied-technique map; breadth requested) |
 | `relationships/` | source-bounded (covers the ingested source; otherwise `anchors`) |
 | *new sections* | `anchors` until Ronald says otherwise |
 
