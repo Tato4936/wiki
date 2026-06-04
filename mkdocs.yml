@@ -1,7 +1,7 @@
 site_name: Wiki
 site_description: A lean personal knowledge base — synthesis and curated sources, not encyclopedia summaries.
 site_author: Ronald Liu
-site_url: https://rliu4936.github.io/wiki/
+site_url: https://tato4936.github.io/wiki/
 strict: true     # fail the build on a broken internal link or a nav entry pointing nowhere
 
 theme:
