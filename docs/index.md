@@ -37,5 +37,7 @@ See [Conventions](about/conventions.md) for the full note template.
   the pop-psych myths to ignore.
 - [**Relationships**](relationships/index.md) — dating strategy, communication, and partnership,
   captured critically (provenance + confidence, not endorsement).
+- [**Wealth & tax structuring**](wealth-structuring/index.md) — how the wealthy legally minimize tax and
+  structure money (and the line where it becomes fraud).
 
-*Planned: corporate & quantitative finance, investing, success.*
+*Planned: quantitative finance, investing, success.*

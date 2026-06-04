@@ -87,3 +87,18 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   embodiment.
 - Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables.
 - `mkdocs build --strict`: pass.
+
+## 2026-06-04 — New section: Wealth & tax structuring
+
+- Ronald asked for corporate-finance / "how the rich structure money to minimize tax" content (buy-borrow-
+  die; running personal spend through a company / 报销).
+- Created section **`wealth-structuring/`** (tier: `draft-with-review`; coverage: `anchors`) with **8 cited
+  notes**: avoidance vs. evasion (the legal line — anchor), buy-borrow-die, stepped-up basis, capital vs.
+  labor income, carried interest, business expenses & the line, holding companies, trusts & estate planning.
+- **Handled responsibly:** documents *legal avoidance* (sourced — ProPublica, IRC sections); the one
+  genuinely-illegal ask (报销-ing personal spending) is framed as the **line** between legitimate business
+  deductions and tax fraud, explicitly *not* an evasion how-to. Flagged US-centric, not advice, law changes.
+- Backlog: QSBS, 1031, depreciation/real estate, donor-advised funds, opportunity zones, estate/gift tax,
+  offshore.
+- Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables.
+- `mkdocs build --strict`: pass.
