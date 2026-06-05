@@ -43,3 +43,4 @@ pop-culture symbol of **willpower predicting success**.
 
 - [Gross's process model](gross-process-model-of-emotion-regulation.md) — the actual mechanics of self-regulation
 - [Reappraisal vs. suppression](reappraisal-vs-suppression.md) — evidence-based regulation strategies
+- [*Thinking, Fast and Slow*: what replicated](../decision-making/thinking-fast-and-slow-replication.md) — the broader replication reckoning (incl. ego depletion)

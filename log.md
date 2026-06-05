@@ -131,3 +131,32 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   or determinist content presented as valid.
 - Updated home catalog, `nav` (skin nested under lookism), and the CLAUDE.md autonomy + coverage tables.
 - `mkdocs build --strict`: pass.
+
+## 2026-06-04 — New sections: Friendship, Judgment & decision-making
+
+- Ronald asked to "ingest stuff on friends" (Dunbar / how many friends you can have) and add a
+  decision-making section (Kahneman — *Thinking, Fast and Slow*, *Noise* — plus the broader field).
+  Sourced via a deep-research pass: Part 1 (friendship) was adversarially fact-checked against primary
+  papers; Part 2 (decision-making) was verified against named sources after a web-search limit cut a
+  second harness run short.
+- Created section **`friendship/`** (tier: `draft-with-review`; coverage: `anchors`) with **5 cited
+  notes**: `dunbars-number` (contested — the ~150 figure is an extrapolation; Lindenfors 2021 vs. Dunbar's
+  rebuttal), `friendship-layers` (the replicated ~×3 nested structure), `hours-to-make-a-friend` (Hall
+  2019: 50/90/200h), `seven-pillars-of-friendship` (Dunbar 2018 homophily), `friendship-and-longevity`
+  (Holt-Lunstad — ~50% survival, "like quitting smoking").
+- Created section **`decision-making/`** (tier: `draft-with-review`; coverage: `anchors`) with **4 cited
+  notes**: `noise-vs-bias` (*Noise* — the 55% insurance audit; decision hygiene), `thinking-fast-and-slow-
+  replication` (contested — the priming chapter's R-index ~14, Kahneman's 2017 "underpowered studies"
+  concession, the ego-depletion RRR), `superforecasting` (Tetlock — foxes > hedgehogs, perpetual beta),
+  `ecological-rationality` (contested — Gigerenzer's counter-case).
+- **Value-rule calls:** kept only cited / non-obvious material; pushed generic textbook items (System 1/2,
+  anchoring, prospect theory, Nudge, the outside view) to the decision-making **Backlog** rather than
+  writing encyclopedia notes. Friendship backlog: decay/contact rhythm, sex differences, life-course,
+  online friendship, *Platonic*.
+- Cross-linked into EQ (marshmallow test) and Connection (peak-end rule, similarity & mere exposure, the 36
+  questions) with reciprocal backlinks.
+- Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables.
+- `mkdocs build --strict`: pass (exit 0, no broken-link / nav warnings).
+- **Not yet committed or pushed** — left in the working tree for Ronald's review (provenance still `cited`,
+  the two contested notes carry "Contested" admonitions; nothing promoted to `me`). Pushing would
+  auto-deploy the public site, so it's held pending sign-off.

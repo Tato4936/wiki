@@ -43,3 +43,4 @@ make an otherwise ordinary time together feel great in hindsight (and pull peopl
 
 - [Active-constructive responding](active-constructive-responding.md) — a reliable peak
 - [Bids for connection](bids-for-connection.md)
+- [*Thinking, Fast and Slow*: what replicated](../decision-making/thinking-fast-and-slow-replication.md) — the book this rule comes from (and what didn't hold up)

@@ -33,6 +33,8 @@ See [Conventions](about/conventions.md) for the full note template.
   awareness, empathy, and what to actually *do*.
 - [**Connection & rapport**](connection/index.md) — applied interpersonal techniques for being liked,
   building rapport, and deepening relationships.
+- [**Friendship**](friendship/index.md) — the science of friendship itself: how many close ties you can
+  hold, how they're layered, and why social connection rivals smoking as a health factor.
 - [**Body language**](body-language/index.md) — the nonverbal channel: what genuinely builds rapport, and
   the pop-psych myths to ignore.
 - [**Lookism & appearance**](lookism/index.md) — how looks affect how you're treated, and the controllable,
@@ -42,5 +44,7 @@ See [Conventions](about/conventions.md) for the full note template.
   captured critically (provenance + confidence, not endorsement).
 - [**Wealth & tax structuring**](wealth-structuring/index.md) — how the wealthy legally minimize tax and
   structure money (and the line where it becomes fraud).
+- [**Judgment & decision-making**](decision-making/index.md) — how judgment works and fails (bias vs.
+  noise), what the replication crisis revised, and what measurably improves it.
 
 *Planned: quantitative finance, investing, success.*

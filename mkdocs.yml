@@ -100,6 +100,13 @@ nav:
       - Cialdini's liking principle: connection/cialdinis-liking-principle.md
       - The Franklin effect: connection/the-franklin-effect.md
       - The pratfall effect: connection/the-pratfall-effect.md
+  - Friendship:
+      - Overview: friendship/index.md
+      - Dunbar's number: friendship/dunbars-number.md
+      - The friendship layers: friendship/friendship-layers.md
+      - Hours to make a friend: friendship/hours-to-make-a-friend.md
+      - The seven pillars: friendship/seven-pillars-of-friendship.md
+      - Friendship & longevity: friendship/friendship-and-longevity.md
   - Body language:
       - Overview: body-language/index.md
       - The 93% nonverbal myth: body-language/the-93-percent-myth.md
@@ -154,6 +161,12 @@ nav:
       - Business expenses & the line: wealth-structuring/business-expenses-and-the-line.md
       - Holding companies: wealth-structuring/holding-companies.md
       - Trusts & estate planning: wealth-structuring/trusts-and-estate-planning.md
+  - "Judgment & decision-making":
+      - Overview: decision-making/index.md
+      - Noise vs. bias: decision-making/noise-vs-bias.md
+      - "Thinking, Fast and Slow: what replicated": decision-making/thinking-fast-and-slow-replication.md
+      - Superforecasting: decision-making/superforecasting.md
+      - Ecological rationality: decision-making/ecological-rationality.md
   - About:
       - Conventions: about/conventions.md
   - Tags: tags.md

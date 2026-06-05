@@ -41,3 +41,4 @@ scaffolding for that loop.
 - [Validation](validation.md) — what to do when they disclose, so they keep going
 - [Ask follow-up questions](ask-follow-up-questions.md)
 - [Active-constructive responding](active-constructive-responding.md)
+- [Hours to make a friend](../friendship/hours-to-make-a-friend.md) — disclosure is how you make the hours count

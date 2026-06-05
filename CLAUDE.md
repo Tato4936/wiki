@@ -59,6 +59,8 @@ How much Claude may do **without Ronald**, per section. Autonomy scales with how
 | `wealth-structuring/` (Wealth & tax structuring) | `draft-with-review` | draft from cited tax/finance sources as **DRAFT**; **clearly mark legal avoidance vs. illegal evasion** (never write an evasion how-to); flag US-centric + not-advice; **never auto-merge**; Ronald reviews. |
 | `lookism/` (Lookism & appearance) | `draft-with-review` | draft from cited science as **DRAFT**; emphasize **controllable/healthy** levers; **flag the blackpill / body-dysmorphia material** and never promote dangerous procedures; **never auto-merge**; Ronald reviews. |
 | `gym/` (The gym) | `draft-with-review` | draft from cited exercise-science sources as **DRAFT**; **never auto-merge**; Ronald reviews. |
+| `friendship/` (Friendship) | `draft-with-review` | draft from **specific cited sources** (Dunbar, Hall, Holt-Lunstad) as **DRAFT**; flag the contested Dunbar-number dispute; **never auto-merge**; Ronald reviews and sets final provenance. |
+| `decision-making/` (Judgment & decision-making) | `draft-with-review` | draft from **cited sources** (Kahneman, Tetlock, Gigerenzer) as **DRAFT**; flag replication-contested claims; **never auto-merge**; Ronald reviews. |
 | *future* soft topics (`success/`) | `structure-only` | only file/format what Ronald dropped in `inbox.md`; **author no claims**. |
 | *future* externally-checkable topics (e.g. tool/reference docs) | `autonomous` | research, draft, and finalize. |
 
@@ -109,6 +111,8 @@ Set per section, like the autonomy tier (§4). Levels:
 | `lookism/` | `thorough` (science + controllable levers + skin subsection) |
 | `gym/` | `anchors` (the fundamentals) |
 | `relationships/` | source-bounded (covers the ingested source; otherwise `anchors`) |
+| `friendship/` | `anchors` (capacity, formation, why-it-matters) |
+| `decision-making/` | `anchors` (the non-obvious, load-bearing parts) |
 | *new sections* | `anchors` until Ronald says otherwise |
 
 **"Done" signal:** a section is done-for-now when its Map covers its coverage tier; anything beyond sits

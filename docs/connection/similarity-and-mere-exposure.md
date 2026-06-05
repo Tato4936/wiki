@@ -44,3 +44,4 @@ strangers into friends — and why one-off dazzling impressions fade.
 - [Cialdini's liking principle](cialdinis-liking-principle.md) — similarity & familiarity as persuasion levers
 - [Genuine interest (Carnegie)](genuine-interest-carnegie.md)
 - [Bids for connection](bids-for-connection.md) — what to do with all those touchpoints
+- [The seven pillars of friendship](../friendship/seven-pillars-of-friendship.md) — homophily made specific
