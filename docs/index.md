@@ -35,6 +35,9 @@ See [Conventions](about/conventions.md) for the full note template.
   building rapport, and deepening relationships.
 - [**Body language**](body-language/index.md) — the nonverbal channel: what genuinely builds rapport, and
   the pop-psych myths to ignore.
+- [**Lookism & appearance**](lookism/index.md) — how looks affect how you're treated, and the controllable,
+  evidence-based levers to look your best (incl. skin) — minus the determinism.
+- [**The gym**](gym/index.md) — evidence-based training to build muscle, get stronger, and feel better.
 - [**Relationships**](relationships/index.md) — dating strategy, communication, and partnership,
   captured critically (provenance + confidence, not endorsement).
 - [**Wealth & tax structuring**](wealth-structuring/index.md) — how the wealthy legally minimize tax and

@@ -115,3 +115,19 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
 - Refreshed backlog: gratitude (Algoe), accusation audit, "that's right" vs "you're right", getting to
   "no", saving face (Goffman), the Michelangelo phenomenon, the five love languages (⚠️).
 - `mkdocs build --strict`: pass.
+
+## 2026-06-04 — New sections: Lookism & appearance, The gym
+
+- Ronald asked for a big lookism section (+ skin subsection) and a gym section.
+- **`lookism/`** (tier: `draft-with-review`; coverage: `thorough`) — 9 notes + a nested **`lookism/skin/`**
+  subsection (3 notes). Science (halo effect, beauty premium, what's attractive), the controllable-vs-fixed
+  frame, levers (grooming, style/fit, body composition, the unsexy basics), and **the blackpill trap** —
+  a mental-health-aware note flagging the determinism / body-dysmorphia / dangerous-procedure side rather
+  than feeding it. Skin = evidence-based minimalist routine (basics, sunscreen [RCT], retinoids).
+- **`gym/`** (tier: `draft-with-review`; coverage: `anchors`) — 7 notes: consistency & progressive overload
+  (anchor), building muscle (Schoenfeld), getting stronger, a beginner program, form & injuries, protein &
+  nutrition (Morton; creatine), recovery & sleep.
+- **Handled responsibly:** lookism leads with controllable/healthy + flags the toxic; no dangerous-procedure
+  or determinist content presented as valid.
+- Updated home catalog, `nav` (skin nested under lookism), and the CLAUDE.md autonomy + coverage tables.
+- `mkdocs build --strict`: pass.

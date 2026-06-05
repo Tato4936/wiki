@@ -57,6 +57,8 @@ How much Claude may do **without Ronald**, per section. Autonomy scales with how
 | `connection/` (Connection & rapport) | `draft-with-review` | draft applied techniques from **specific cited sources** (books / research) as **DRAFT**; **never auto-merge**; Ronald reviews and sets final provenance. |
 | `body-language/` (Body language) | `draft-with-review` | draft from **specific cited sources** as **DRAFT**; flag myths / overreach explicitly; **never auto-merge**; Ronald reviews and sets final provenance. |
 | `wealth-structuring/` (Wealth & tax structuring) | `draft-with-review` | draft from cited tax/finance sources as **DRAFT**; **clearly mark legal avoidance vs. illegal evasion** (never write an evasion how-to); flag US-centric + not-advice; **never auto-merge**; Ronald reviews. |
+| `lookism/` (Lookism & appearance) | `draft-with-review` | draft from cited science as **DRAFT**; emphasize **controllable/healthy** levers; **flag the blackpill / body-dysmorphia material** and never promote dangerous procedures; **never auto-merge**; Ronald reviews. |
+| `gym/` (The gym) | `draft-with-review` | draft from cited exercise-science sources as **DRAFT**; **never auto-merge**; Ronald reviews. |
 | *future* soft topics (`success/`) | `structure-only` | only file/format what Ronald dropped in `inbox.md`; **author no claims**. |
 | *future* externally-checkable topics (e.g. tool/reference docs) | `autonomous` | research, draft, and finalize. |
 
@@ -104,6 +106,8 @@ Set per section, like the autonomy tier (§4). Levels:
 | `connection/` | `thorough` (applied-technique map; breadth requested) |
 | `body-language/` | `thorough` (myth-busting + rapport map) |
 | `wealth-structuring/` | `anchors` (load-bearing strategies only) |
+| `lookism/` | `thorough` (science + controllable levers + skin subsection) |
+| `gym/` | `anchors` (the fundamentals) |
 | `relationships/` | source-bounded (covers the ingested source; otherwise `anchors`) |
 | *new sections* | `anchors` until Ronald says otherwise |
 
