@@ -160,3 +160,19 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
 - **Not yet committed or pushed** — left in the working tree for Ronald's review (provenance still `cited`,
   the two contested notes carry "Contested" admonitions; nothing promoted to `me`). Pushing would
   auto-deploy the public site, so it's held pending sign-off.
+
+## 2026-06-06 — Ingest: Visible effort (connection/)
+
+- Ronald asked to add something to the interpersonal section about "being effortful and showing" it.
+- New note `connection/visible-effort.md` — **first `source: claude` DRAFT** in the wiki (`draft-with-review`
+  tier), `confidence: medium`, with a "🚧 Draft — pending review" admonition. One atomic concept: effort
+  as a **costly signal** of caring (Zahavi handicap logic) × the **effort heuristic** (Kruger et al. 2004) —
+  so *perceived* effort is what counts — with the flip caveat **show the care, not the cost** (announcing
+  sacrifice / humblebragging backfires — Sezer et al. 2018).
+- Cross-linked with reciprocal backlinks into perceived-partner-responsiveness (its "show it, don't just
+  feel it" line is the same principle), specific-compliments, vulnerability-loop, bids-for-connection.
+- Added to the section Map (flagged 🚧 draft) and `nav`.
+- **Provenance honesty:** the 3 cited papers are real/well-established but drawn from background knowledge,
+  not freshly read — left as `source: claude` for Ronald to verify and promote to `cited`/`me`.
+- `mkdocs build --strict`: pass (exit 0, no broken-link / nav warnings).
+- **Not committed or pushed** — held in the working tree pending review.

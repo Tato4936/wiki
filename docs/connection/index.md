@@ -42,6 +42,7 @@ well-supported · ⚠️ mixed / limited evidence.
 - [Affectionate teasing](affectionate-teasing.md) ✅⚠️ — playful ribbing as a closeness signal
 - [The peak-end rule](peak-end-rule.md) ✅ — end on a high; engineer a peak
 - [Self-expansion](self-expansion.md) ✅ — bond through novel, exciting shared experience
+- [Visible effort](visible-effort.md) ⚠️ 🚧 — effort as a costly signal of caring; make it perceptible, never advertise the cost *(draft — pending review)*
 
 ### When it gets tense — repair
 - [Contrasting](contrasting.md) ✅ — the don't/do statement that clears a misread

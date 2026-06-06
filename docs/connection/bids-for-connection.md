@@ -43,3 +43,4 @@ these micro-moments, not in grand gestures.
 - [Active-constructive responding](active-constructive-responding.md) — turning toward *good-news* bids
 - [Gottman ratio & Four Horsemen](../eq/gottman-ratio-and-four-horsemen.md)
 - [Ask follow-up questions](ask-follow-up-questions.md)
+- [Visible effort](visible-effort.md) — bids are the low-cost, everyday end of effort signals

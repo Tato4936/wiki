@@ -45,3 +45,4 @@ the three signals land.
 
 - [Validation](validation.md) · [Looping for understanding](looping-for-understanding.md) · [Active-constructive responding](active-constructive-responding.md) — the three signals made concrete
 - [Lead with warmth](lead-with-warmth.md)
+- [Visible effort](visible-effort.md) — effort is one of the main ways responsiveness gets shown

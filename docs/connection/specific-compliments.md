@@ -42,3 +42,4 @@ Two complementary points:
 - [Genuine interest (Carnegie)](genuine-interest-carnegie.md) — appreciation as a disposition
 - [Cialdini's liking principle](cialdinis-liking-principle.md) — praise as a liking factor
 - [Active-constructive responding](active-constructive-responding.md)
+- [Visible effort](visible-effort.md) — specificity is effort made legible
