@@ -161,6 +161,23 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   the two contested notes carry "Contested" admonitions; nothing promoted to `me`). Pushing would
   auto-deploy the public site, so it's held pending sign-off.
 
+## 2026-06-04 — New section: Goals (anonymized & published)
+
+- Ronald asked for a personal-goals section (wealth-building), tailored to his background. Gathered the
+  relevant parameters via AskUserQuestion (quant/AI background, graduate quant-finance training, access to
+  patient capital + fundamental mentorship, an investing path, steady ~20–30-yr horizon, an ambitious target).
+- Created section **`goals/`** (tier: `structure-only`; coverage: `anchors`) with an index + **4 notes**,
+  all **`source: claude` DRAFT** (personal goals are `source: me` — Ronald's to own; seeded a first draft
+  at his explicit request): `the-plan` (two engines — compound the owned base + scale external AUM/carry),
+  `the-compounding-math` (CAGR tables, FX-stated, the headline insight), `the-quantamental-edge`
+  (quant/AI + fundamental network + permanent capital), `honest-odds-and-risks` (own-vs-manage, currency,
+  key-person risk, realism).
+- One-directional cross-links out to `decision-making/` and `wealth-structuring/` (reciprocal backlinks
+  left as a follow-up).
+- **PRIVACY:** the first draft held personal/financial specifics; per Ronald's choice it was **anonymized**
+  for publication — identifying details (relation, amounts, school, project name) replaced with generic
+  placeholders, the local-only gitignore removed, then committed + pushed. `mkdocs build --strict`: pass.
+
 ## 2026-06-06 — Ingest: Visible effort (connection/)
 
 - Ronald asked to add something to the interpersonal section about "being effortful and showing" it.

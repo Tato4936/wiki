@@ -46,5 +46,7 @@ See [Conventions](about/conventions.md) for the full note template.
   structure money (and the line where it becomes fraud).
 - [**Judgment & decision-making**](decision-making/index.md) — how judgment works and fails (bias vs.
   noise), what the replication crisis revised, and what measurably improves it.
+- [**Goals**](goals/index.md) — a personal, long-horizon plan for building wealth: the strategy, the
+  compounding math, the edge, and an honest risk check.
 
 *Planned: quantitative finance, investing, success.*

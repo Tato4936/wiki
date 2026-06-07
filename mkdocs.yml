@@ -168,6 +168,12 @@ nav:
       - "Thinking, Fast and Slow: what replicated": decision-making/thinking-fast-and-slow-replication.md
       - Superforecasting: decision-making/superforecasting.md
       - Ecological rationality: decision-making/ecological-rationality.md
+  - Goals:
+      - Overview: goals/index.md
+      - The two-engine plan: goals/the-plan.md
+      - The compounding math: goals/the-compounding-math.md
+      - The quantamental edge: goals/the-quantamental-edge.md
+      - Honest odds & risks: goals/honest-odds-and-risks.md
   - About:
       - Conventions: about/conventions.md
   - Tags: tags.md
