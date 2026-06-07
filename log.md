@@ -178,6 +178,24 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   for publication — identifying details (relation, amounts, school, project name) replaced with generic
   placeholders, the local-only gitignore removed, then committed + pushed. `mkdocs build --strict`: pass.
 
+## 2026-06-04 — New section: Learning
+
+- Ronald asked for an evidence-based "how to best learn" section (active recall, interleaving,
+  structure-first, etc.).
+- Created section **`learning/`** (tier: `draft-with-review`; coverage: `thorough`) with an index + **9
+  cited notes**, as a principle → techniques → encoding → metacognition/myths map: `desirable-difficulties`
+  (Bjork; performance ≠ learning — the anchor); `retrieval-practice`, `spaced-repetition`, `interleaving`
+  (the high-utility trio — Roediger/Karpicke, Cepeda, Rohrer; Dunlosky's top-rated); `elaboration-and-self-
+  explanation`, `structure-first` (advance organizers/schemas), `dual-coding` (deeper encoding); `the-
+  fluency-illusion` (rereading/highlighting = low utility) and `learning-styles-myth` (contested — Pashler
+  2008).
+- Real citations throughout; the contested/myth items carry "Contested"/honest admonitions. One cross-link
+  to decision-making (fluency illusion ↔ cognitive ease) with a reciprocal backlink. Backlog: deliberate
+  practice, generation effect, cognitive load / worked examples, sleep & consolidation, handwriting-vs-
+  laptop notes, metacognitive planning.
+- Updated home catalog, `nav`, and the CLAUDE.md autonomy + coverage tables. `mkdocs build --strict`: pass.
+  Published (committed + pushed).
+
 ## 2026-06-06 — Ingest: Visible effort (connection/)
 
 - Ronald asked to add something to the interpersonal section about "being effortful and showing" it.

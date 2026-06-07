@@ -168,6 +168,17 @@ nav:
       - "Thinking, Fast and Slow: what replicated": decision-making/thinking-fast-and-slow-replication.md
       - Superforecasting: decision-making/superforecasting.md
       - Ecological rationality: decision-making/ecological-rationality.md
+  - Learning:
+      - Overview: learning/index.md
+      - Desirable difficulties: learning/desirable-difficulties.md
+      - Retrieval practice (active recall): learning/retrieval-practice.md
+      - Spaced repetition: learning/spaced-repetition.md
+      - Interleaving: learning/interleaving.md
+      - Elaboration & self-explanation: learning/elaboration-and-self-explanation.md
+      - Structure first: learning/structure-first.md
+      - Dual coding: learning/dual-coding.md
+      - The fluency illusion: learning/the-fluency-illusion.md
+      - Learning styles (myth): learning/learning-styles-myth.md
   - Goals:
       - Overview: goals/index.md
       - The two-engine plan: goals/the-plan.md

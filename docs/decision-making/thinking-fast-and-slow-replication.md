@@ -38,3 +38,4 @@ The book popularized **System 1 / System 2** thinking and a catalogue of biases.
 - [Noise vs. bias](noise-vs-bias.md) — Kahneman's later, sturdier contribution
 - [The marshmallow test](../eq/marshmallow-test.md) — another famous effect cut down by replication
 - [Ecological rationality](ecological-rationality.md) — the critique that the "biases" story was overstated
+- [The fluency illusion](../learning/the-fluency-illusion.md) — cognitive ease & overconfidence, in studying
