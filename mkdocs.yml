@@ -22,8 +22,8 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.tabs          # 4 top-level domains render as tabs
     - navigation.top
-    - navigation.sections
     - navigation.footer        # Previous / Next links at the bottom of each page
     - toc.follow
     - search.suggest
@@ -48,143 +48,149 @@ markdown_extensions:
   - def_list
   - toc: { permalink: true }
 
+# Top level = four life domains (People / Mind / Body / Money & ambition), each grouping
+# the relevant sections. Files are NOT moved — this is purely navigational grouping.
 nav:
   - Home: index.md
-  - Emotional Intelligence:
-      - Overview: eq/index.md
-      - Mayer–Salovey ability model: eq/mayer-salovey-ability-model.md
-      - Goleman's mixed model: eq/goleman-mixed-model.md
-      - Trait EI (Petrides): eq/trait-ei.md
-      - Bar-On model & EQ-i: eq/bar-on-model.md
-      - The MSCEIT: eq/msceit.md
-      - Gross's process model: eq/gross-process-model-of-emotion-regulation.md
-      - Reappraisal vs. suppression: eq/reappraisal-vs-suppression.md
-      - Affect labeling: eq/affect-labeling.md
-      - Emotional granularity: eq/emotional-granularity.md
-      - Theory of constructed emotion: eq/theory-of-constructed-emotion.md
-      - Alexithymia: eq/alexithymia.md
-      - Empathy types: eq/empathy-types.md
-      - Theory of mind: eq/theory-of-mind.md
-      - Emotional contagion: eq/emotional-contagion.md
-      - Mirror neurons: eq/mirror-neurons.md
-      - Attachment styles: eq/attachment-styles.md
-      - Gottman ratio & Four Horsemen: eq/gottman-ratio-and-four-horsemen.md
-      - Active listening (Rogers): eq/active-listening-rogers.md
-      - Nonviolent Communication: eq/nonviolent-communication.md
-      - Polyvagal theory: eq/polyvagal-theory.md
-      - The marshmallow test: eq/marshmallow-test.md
-  - "Connection & rapport":
-      - Overview: connection/index.md
-      - Perceived partner responsiveness: connection/perceived-partner-responsiveness.md
-      - Labeling: connection/labeling.md
-      - Mirroring: connection/mirroring.md
-      - Looping for understanding: connection/looping-for-understanding.md
-      - Support vs. shift response: connection/support-vs-shift-response.md
-      - Validation: connection/validation.md
-      - Ask follow-up questions: connection/ask-follow-up-questions.md
-      - The matching principle: connection/the-matching-principle.md
-      - Calibrated questions: connection/calibrated-questions.md
-      - The 36 questions: connection/the-36-questions.md
-      - The vulnerability loop: connection/vulnerability-loop.md
-      - Active-constructive responding: connection/active-constructive-responding.md
-      - Lead with warmth: connection/lead-with-warmth.md
-      - Genuine interest (Carnegie): connection/genuine-interest-carnegie.md
-      - Bids for connection: connection/bids-for-connection.md
-      - Specific compliments: connection/specific-compliments.md
-      - Affectionate teasing: connection/affectionate-teasing.md
-      - The peak-end rule: connection/peak-end-rule.md
-      - Self-expansion: connection/self-expansion.md
-      - Visible effort: connection/visible-effort.md
-      - Contrasting: connection/contrasting.md
-      - Intent vs. impact: connection/intent-vs-impact.md
-      - Similarity & mere exposure: connection/similarity-and-mere-exposure.md
-      - Cialdini's liking principle: connection/cialdinis-liking-principle.md
-      - The Franklin effect: connection/the-franklin-effect.md
-      - The pratfall effect: connection/the-pratfall-effect.md
-  - Friendship:
-      - Overview: friendship/index.md
-      - Dunbar's number: friendship/dunbars-number.md
-      - The friendship layers: friendship/friendship-layers.md
-      - Hours to make a friend: friendship/hours-to-make-a-friend.md
-      - The seven pillars: friendship/seven-pillars-of-friendship.md
-      - Friendship & longevity: friendship/friendship-and-longevity.md
-  - Body language:
-      - Overview: body-language/index.md
-      - The 93% nonverbal myth: body-language/the-93-percent-myth.md
-      - Power posing: body-language/power-posing.md
-      - Spotting lies: body-language/detecting-lies.md
-      - Nonverbal synchrony: body-language/nonverbal-synchrony.md
-      - Open body language: body-language/open-body-language.md
-      - The genuine smile: body-language/the-genuine-smile.md
-      - Eye contact: body-language/eye-contact.md
-      - Vocal tone: body-language/vocal-tone.md
-      - Personal space: body-language/proxemics.md
-  - Lookism & appearance:
-      - Overview: lookism/index.md
-      - The halo effect: lookism/halo-effect.md
-      - The beauty premium: lookism/beauty-premium.md
-      - What's actually attractive: lookism/what-is-attractive.md
-      - Controllable vs. fixed: lookism/controllable-vs-fixed.md
-      - Grooming: lookism/grooming.md
-      - Style & fit: lookism/style-and-fit.md
-      - Body composition: lookism/body-composition.md
-      - The unsexy basics: lookism/the-unsexy-basics.md
-      - Skin:
-          - Overview: lookism/skin/index.md
-          - Skincare basics: lookism/skin/skincare-basics.md
-          - Sunscreen: lookism/skin/sunscreen.md
-          - Retinoids: lookism/skin/retinoids.md
-      - The blackpill trap: lookism/the-blackpill-trap.md
-  - The gym:
-      - Overview: gym/index.md
-      - Consistency & progressive overload: gym/consistency-and-progressive-overload.md
-      - Building muscle: gym/building-muscle.md
-      - Getting stronger: gym/getting-stronger.md
-      - A beginner program: gym/a-beginner-program.md
-      - Form & injuries: gym/form-and-injuries.md
-      - Protein & nutrition: gym/protein-and-nutrition.md
-      - Recovery & sleep: gym/recovery-and-sleep.md
-  - Relationships:
-      - Overview: relationships/index.md
-      - The value-exchange model: relationships/the-value-exchange-model.md
-      - Where to meet partners: relationships/where-to-meet-partners.md
-      - Partner archetypes: relationships/partner-archetypes.md
-      - Texting & conversation: relationships/texting-and-conversation.md
-      - Infidelity (fact-checked): relationships/infidelity-prevention.md
-      - Marriage & financial power: relationships/marriage-and-financial-power.md
-  - Wealth & tax structuring:
-      - Overview: wealth-structuring/index.md
-      - Avoidance vs. evasion: wealth-structuring/avoidance-vs-evasion.md
-      - Buy, borrow, die: wealth-structuring/buy-borrow-die.md
-      - Stepped-up basis: wealth-structuring/stepped-up-basis.md
-      - Capital vs. labor income: wealth-structuring/capital-vs-labor-income.md
-      - Carried interest: wealth-structuring/carried-interest.md
-      - Business expenses & the line: wealth-structuring/business-expenses-and-the-line.md
-      - Holding companies: wealth-structuring/holding-companies.md
-      - Trusts & estate planning: wealth-structuring/trusts-and-estate-planning.md
-  - "Judgment & decision-making":
-      - Overview: decision-making/index.md
-      - Noise vs. bias: decision-making/noise-vs-bias.md
-      - "Thinking, Fast and Slow: what replicated": decision-making/thinking-fast-and-slow-replication.md
-      - Superforecasting: decision-making/superforecasting.md
-      - Ecological rationality: decision-making/ecological-rationality.md
-  - Learning:
-      - Overview: learning/index.md
-      - Desirable difficulties: learning/desirable-difficulties.md
-      - Retrieval practice (active recall): learning/retrieval-practice.md
-      - Spaced repetition: learning/spaced-repetition.md
-      - Interleaving: learning/interleaving.md
-      - Elaboration & self-explanation: learning/elaboration-and-self-explanation.md
-      - Structure first: learning/structure-first.md
-      - Dual coding: learning/dual-coding.md
-      - The fluency illusion: learning/the-fluency-illusion.md
-      - Learning styles (myth): learning/learning-styles-myth.md
-  - Goals:
-      - Overview: goals/index.md
-      - The two-engine plan: goals/the-plan.md
-      - The compounding math: goals/the-compounding-math.md
-      - The quantamental edge: goals/the-quantamental-edge.md
-      - Honest odds & risks: goals/honest-odds-and-risks.md
+  - People:
+      - Emotional Intelligence:
+          - Overview: eq/index.md
+          - Mayer–Salovey ability model: eq/mayer-salovey-ability-model.md
+          - Goleman's mixed model: eq/goleman-mixed-model.md
+          - Trait EI (Petrides): eq/trait-ei.md
+          - Bar-On model & EQ-i: eq/bar-on-model.md
+          - The MSCEIT: eq/msceit.md
+          - Gross's process model: eq/gross-process-model-of-emotion-regulation.md
+          - Reappraisal vs. suppression: eq/reappraisal-vs-suppression.md
+          - Affect labeling: eq/affect-labeling.md
+          - Emotional granularity: eq/emotional-granularity.md
+          - Theory of constructed emotion: eq/theory-of-constructed-emotion.md
+          - Alexithymia: eq/alexithymia.md
+          - Empathy types: eq/empathy-types.md
+          - Theory of mind: eq/theory-of-mind.md
+          - Emotional contagion: eq/emotional-contagion.md
+          - Mirror neurons: eq/mirror-neurons.md
+          - Attachment styles: eq/attachment-styles.md
+          - Gottman ratio & Four Horsemen: eq/gottman-ratio-and-four-horsemen.md
+          - Active listening (Rogers): eq/active-listening-rogers.md
+          - Nonviolent Communication: eq/nonviolent-communication.md
+          - Polyvagal theory: eq/polyvagal-theory.md
+          - The marshmallow test: eq/marshmallow-test.md
+      - "Connection & rapport":
+          - Overview: connection/index.md
+          - Perceived partner responsiveness: connection/perceived-partner-responsiveness.md
+          - Labeling: connection/labeling.md
+          - Mirroring: connection/mirroring.md
+          - Looping for understanding: connection/looping-for-understanding.md
+          - Support vs. shift response: connection/support-vs-shift-response.md
+          - Validation: connection/validation.md
+          - Ask follow-up questions: connection/ask-follow-up-questions.md
+          - The matching principle: connection/the-matching-principle.md
+          - Calibrated questions: connection/calibrated-questions.md
+          - The 36 questions: connection/the-36-questions.md
+          - The vulnerability loop: connection/vulnerability-loop.md
+          - Active-constructive responding: connection/active-constructive-responding.md
+          - Lead with warmth: connection/lead-with-warmth.md
+          - Genuine interest (Carnegie): connection/genuine-interest-carnegie.md
+          - Bids for connection: connection/bids-for-connection.md
+          - Specific compliments: connection/specific-compliments.md
+          - Affectionate teasing: connection/affectionate-teasing.md
+          - The peak-end rule: connection/peak-end-rule.md
+          - Self-expansion: connection/self-expansion.md
+          - Visible effort: connection/visible-effort.md
+          - Contrasting: connection/contrasting.md
+          - Intent vs. impact: connection/intent-vs-impact.md
+          - Similarity & mere exposure: connection/similarity-and-mere-exposure.md
+          - Cialdini's liking principle: connection/cialdinis-liking-principle.md
+          - The Franklin effect: connection/the-franklin-effect.md
+          - The pratfall effect: connection/the-pratfall-effect.md
+      - Body language:
+          - Overview: body-language/index.md
+          - The 93% nonverbal myth: body-language/the-93-percent-myth.md
+          - Power posing: body-language/power-posing.md
+          - Spotting lies: body-language/detecting-lies.md
+          - Nonverbal synchrony: body-language/nonverbal-synchrony.md
+          - Open body language: body-language/open-body-language.md
+          - The genuine smile: body-language/the-genuine-smile.md
+          - Eye contact: body-language/eye-contact.md
+          - Vocal tone: body-language/vocal-tone.md
+          - Personal space: body-language/proxemics.md
+      - Friendship:
+          - Overview: friendship/index.md
+          - Dunbar's number: friendship/dunbars-number.md
+          - The friendship layers: friendship/friendship-layers.md
+          - Hours to make a friend: friendship/hours-to-make-a-friend.md
+          - The seven pillars: friendship/seven-pillars-of-friendship.md
+          - Friendship & longevity: friendship/friendship-and-longevity.md
+      - Relationships:
+          - Overview: relationships/index.md
+          - The value-exchange model: relationships/the-value-exchange-model.md
+          - Where to meet partners: relationships/where-to-meet-partners.md
+          - Partner archetypes: relationships/partner-archetypes.md
+          - Texting & conversation: relationships/texting-and-conversation.md
+          - Infidelity (fact-checked): relationships/infidelity-prevention.md
+          - Marriage & financial power: relationships/marriage-and-financial-power.md
+  - Mind:
+      - "Judgment & decision-making":
+          - Overview: decision-making/index.md
+          - Noise vs. bias: decision-making/noise-vs-bias.md
+          - "Thinking, Fast and Slow: what replicated": decision-making/thinking-fast-and-slow-replication.md
+          - Superforecasting: decision-making/superforecasting.md
+          - Ecological rationality: decision-making/ecological-rationality.md
+      - Learning:
+          - Overview: learning/index.md
+          - Desirable difficulties: learning/desirable-difficulties.md
+          - Retrieval practice (active recall): learning/retrieval-practice.md
+          - Spaced repetition: learning/spaced-repetition.md
+          - Interleaving: learning/interleaving.md
+          - Elaboration & self-explanation: learning/elaboration-and-self-explanation.md
+          - Structure first: learning/structure-first.md
+          - Dual coding: learning/dual-coding.md
+          - The fluency illusion: learning/the-fluency-illusion.md
+          - Learning styles (myth): learning/learning-styles-myth.md
+  - Body:
+      - Lookism & appearance:
+          - Overview: lookism/index.md
+          - The halo effect: lookism/halo-effect.md
+          - The beauty premium: lookism/beauty-premium.md
+          - What's actually attractive: lookism/what-is-attractive.md
+          - Controllable vs. fixed: lookism/controllable-vs-fixed.md
+          - Grooming: lookism/grooming.md
+          - Style & fit: lookism/style-and-fit.md
+          - Body composition: lookism/body-composition.md
+          - The unsexy basics: lookism/the-unsexy-basics.md
+          - Skin:
+              - Overview: lookism/skin/index.md
+              - Skincare basics: lookism/skin/skincare-basics.md
+              - Sunscreen: lookism/skin/sunscreen.md
+              - Retinoids: lookism/skin/retinoids.md
+          - The blackpill trap: lookism/the-blackpill-trap.md
+      - The gym:
+          - Overview: gym/index.md
+          - Consistency & progressive overload: gym/consistency-and-progressive-overload.md
+          - Building muscle: gym/building-muscle.md
+          - Getting stronger: gym/getting-stronger.md
+          - A beginner program: gym/a-beginner-program.md
+          - Form & injuries: gym/form-and-injuries.md
+          - Protein & nutrition: gym/protein-and-nutrition.md
+          - Recovery & sleep: gym/recovery-and-sleep.md
+  - "Money & ambition":
+      - Wealth & tax structuring:
+          - Overview: wealth-structuring/index.md
+          - Avoidance vs. evasion: wealth-structuring/avoidance-vs-evasion.md
+          - Buy, borrow, die: wealth-structuring/buy-borrow-die.md
+          - Stepped-up basis: wealth-structuring/stepped-up-basis.md
+          - Capital vs. labor income: wealth-structuring/capital-vs-labor-income.md
+          - Carried interest: wealth-structuring/carried-interest.md
+          - Business expenses & the line: wealth-structuring/business-expenses-and-the-line.md
+          - Holding companies: wealth-structuring/holding-companies.md
+          - Trusts & estate planning: wealth-structuring/trusts-and-estate-planning.md
+      - Goals:
+          - Overview: goals/index.md
+          - The two-engine plan: goals/the-plan.md
+          - The compounding math: goals/the-compounding-math.md
+          - The quantamental edge: goals/the-quantamental-edge.md
+          - Honest odds & risks: goals/honest-odds-and-risks.md
   - About:
       - Conventions: about/conventions.md
   - Tags: tags.md

@@ -211,3 +211,16 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   not freshly read — left as `source: claude` for Ronald to verify and promote to `cited`/`me`.
 - `mkdocs build --strict`: pass (exit 0, no broken-link / nav warnings).
 - **Not committed or pushed** — held in the working tree pending review.
+
+## 2026-06-06 — Restructure: 4 top-level domains (nav only)
+
+- The wiki felt cluttered at the top level (12 flat sections / 124 notes). Regrouped the nav into **4 life
+  domains** — **People** (EQ, Connection, Body language, Friendship, Relationships), **Mind** (Judgment &
+  decision-making, Learning), **Body** (Lookism, Gym), **Money & ambition** (Wealth-structuring, Goals) —
+  plus Home / About / Tags. Switched the sidebar feature `navigation.sections` → `navigation.tabs`, so the
+  four domains render as top tabs and each section collapses cleanly underneath.
+- **No files moved** — purely navigational grouping, so zero URL/link changes (folder paths unchanged, so
+  the CLAUDE.md folder-keyed tier tables stay valid). Rewrote `docs/index.md` to mirror the four domains.
+- `mkdocs build --strict`: pass (125 pages; no missing-from-nav or broken-link warnings). Committed + pushed.
+- **Deferred (Approach B):** sharpen the EQ↔Connection boundary, cross-link `affect-labeling`↔`labeling`,
+  add one-line scope statements to the Friendship / Relationships / Connection indexes.

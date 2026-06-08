@@ -27,28 +27,25 @@ Every **content note** declares two things in a header line:
 
 See [Conventions](about/conventions.md) for the full note template.
 
-## Sections
+## The four domains
 
-- [**Emotional Intelligence**](eq/index.md) — the psychology of emotion: models of EI, regulation,
-  awareness, empathy, and what to actually *do*.
-- [**Connection & rapport**](connection/index.md) — applied interpersonal techniques for being liked,
-  building rapport, and deepening relationships.
-- [**Friendship**](friendship/index.md) — the science of friendship itself: how many close ties you can
-  hold, how they're layered, and why social connection rivals smoking as a health factor.
-- [**Body language**](body-language/index.md) — the nonverbal channel: what genuinely builds rapport, and
-  the pop-psych myths to ignore.
-- [**Lookism & appearance**](lookism/index.md) — how looks affect how you're treated, and the controllable,
-  evidence-based levers to look your best (incl. skin) — minus the determinism.
+### People — relating to others
+- [**Emotional Intelligence**](eq/index.md) — the psychology of emotion: models, regulation, awareness, empathy.
+- [**Connection & rapport**](connection/index.md) — applied techniques for being liked and deepening bonds.
+- [**Body language**](body-language/index.md) — the nonverbal channel: what builds rapport, and the myths to ignore.
+- [**Friendship**](friendship/index.md) — the science of friendship: how many ties, how they're layered, why they matter.
+- [**Relationships**](relationships/index.md) — dating, communication, and partnership, captured critically.
+
+### Mind — thinking & learning
+- [**Learning**](learning/index.md) — learn fast and for keeps: retrieval, spacing, interleaving — and the myths.
+- [**Judgment & decision-making**](decision-making/index.md) — bias vs. noise, the replication crisis, and what improves judgment.
+
+### Body — health & appearance
+- [**Lookism & appearance**](lookism/index.md) — how looks affect how you're treated, and the controllable levers (incl. skin).
 - [**The gym**](gym/index.md) — evidence-based training to build muscle, get stronger, and feel better.
-- [**Relationships**](relationships/index.md) — dating strategy, communication, and partnership,
-  captured critically (provenance + confidence, not endorsement).
-- [**Wealth & tax structuring**](wealth-structuring/index.md) — how the wealthy legally minimize tax and
-  structure money (and the line where it becomes fraud).
-- [**Judgment & decision-making**](decision-making/index.md) — how judgment works and fails (bias vs.
-  noise), what the replication crisis revised, and what measurably improves it.
-- [**Learning**](learning/index.md) — the science of learning fast and for keeps: retrieval practice,
-  spacing, interleaving, desirable difficulties — and the myths (learning styles, rereading).
-- [**Goals**](goals/index.md) — a personal, long-horizon plan for building wealth: the strategy, the
-  compounding math, the edge, and an honest risk check.
 
-*Planned: quantitative finance, investing, success.*
+### Money & ambition — building wealth
+- [**Wealth & tax structuring**](wealth-structuring/index.md) — how the wealthy legally minimize tax (and the line where it becomes fraud).
+- [**Goals**](goals/index.md) — a personal, long-horizon plan for building wealth.
+
+*Planned: quantitative finance, investing.*
