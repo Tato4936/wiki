@@ -185,6 +185,18 @@ nav:
           - Business expenses & the line: wealth-structuring/business-expenses-and-the-line.md
           - Holding companies: wealth-structuring/holding-companies.md
           - Trusts & estate planning: wealth-structuring/trusts-and-estate-planning.md
+      - "Startups & strategy":
+          - Overview: startups/index.md
+          - Monopoly vs. competition: startups/monopoly-vs-competition.md
+          - The power law: startups/the-power-law.md
+          - Secrets & the contrarian question: startups/secrets-and-the-contrarian-question.md
+          - Definite vs. indefinite optimism: startups/definite-vs-indefinite-optimism.md
+          - The seven questions: startups/the-seven-questions.md
+          - Start small and monopolize: startups/start-small-and-monopolize.md
+          - Distribution & sales: startups/distribution-and-sales.md
+          - Moats: startups/moats.md
+          - Network effects & increasing returns: startups/network-effects-and-increasing-returns.md
+          - Disruption & its critics: startups/disruption-and-its-critics.md
       - Goals:
           - Overview: goals/index.md
           - The two-engine plan: goals/the-plan.md

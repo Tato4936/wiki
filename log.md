@@ -224,3 +224,22 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
 - `mkdocs build --strict`: pass (125 pages; no missing-from-nav or broken-link warnings). Committed + pushed.
 - **Deferred (Approach B):** sharpen the EQ↔Connection boundary, cross-link `affect-labeling`↔`labeling`,
   add one-line scope statements to the Friendship / Relationships / Connection indexes.
+
+## 2026-06-06 — New section: Startups & strategy
+
+- Ronald asked to add *Zero to One* + "a lot of related books, theory, and concepts."
+- **Value-rule call (§2):** rather than dump one-prompt-away book summaries, built a curated,
+  **idea/debate-centric** section under the **Money & ambition** domain. Created **`startups/`** (tier:
+  `draft-with-review`; coverage: `thorough`) with an index + **10 cited notes**: `monopoly-vs-competition`
+  (anchor), `the-power-law`, `secrets-and-the-contrarian-question`, `definite-vs-indefinite-optimism`
+  (⚠️ incl. the Lean Startup tension), `the-seven-questions`, `start-small-and-monopolize`,
+  `distribution-and-sales`, `moats` (Porter/Buffett), `network-effects-and-increasing-returns`
+  (Arthur/Metcalfe), `disruption-and-its-critics` (⚠️ Christensen + Lepore + Thiel). Anchored on Zero to
+  One; broadened to the canon and the live debates.
+- All `source: cited` from named books — but drawn from **background knowledge, not freshly re-read**;
+  recommend Ronald skim to verify and promote his own takes to `me`. Contested notes carry admonitions.
+- One-directional cross-links into `goals/` (compounding-math, quantamental-edge). Backlog: 7 Powers
+  (Helmer), Lean Startup own-note, Jobs-to-be-Done, Blue Ocean, aggregation theory, "do things that don't
+  scale", founder/team dynamics.
+- Updated home catalog, `nav` (nested under Money & ambition), and the CLAUDE.md autonomy + coverage tables.
+  `mkdocs build --strict`: pass. Published (committed + pushed).

@@ -63,6 +63,7 @@ How much Claude may do **without Ronald**, per section. Autonomy scales with how
 | `decision-making/` (Judgment & decision-making) | `draft-with-review` | draft from **cited sources** (Kahneman, Tetlock, Gigerenzer) as **DRAFT**; flag replication-contested claims; **never auto-merge**; Ronald reviews. |
 | `goals/` (Goals) | `structure-only` | personal `source: me` synthesis — Claude files/formats only and **authors no claims**; seeded once with an **anonymized** `source: claude` DRAFT at Ronald's explicit request (review & promote to `me`). Keep published notes free of identifying personal/financial specifics. |
 | `learning/` (Learning) | `draft-with-review` | draft from **cited cognitive-science sources** (Dunlosky, Roediger, Bjork, Pashler) as **DRAFT**; flag myths (learning styles) explicitly; **never auto-merge**; Ronald reviews. |
+| `startups/` (Startups & strategy) | `draft-with-review` | draft from **cited business/strategy sources** (Thiel, Porter, Christensen, Ries, Arthur) as **DRAFT**; lead with **ideas & debates, not book summaries** (value rule §2); flag contested framings; **never auto-merge**; Ronald reviews. |
 | *future* soft topics (`success/`) | `structure-only` | only file/format what Ronald dropped in `inbox.md`; **author no claims**. |
 | *future* externally-checkable topics (e.g. tool/reference docs) | `autonomous` | research, draft, and finalize. |
 
@@ -117,6 +118,7 @@ Set per section, like the autonomy tier (§4). Levels:
 | `decision-making/` | `anchors` (the non-obvious, load-bearing parts) |
 | `goals/` | `anchors` (the plan, the math, the edge, the risks) |
 | `learning/` | `thorough` (the evidence-based study map + myths) |
+| `startups/` | `thorough` (the Zero to One canon + the key debates) |
 | *new sections* | `anchors` until Ronald says otherwise |
 
 **"Done" signal:** a section is done-for-now when its Map covers its coverage tier; anything beyond sits
