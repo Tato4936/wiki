@@ -65,6 +65,7 @@ How much Claude may do **without Ronald**, per section. Autonomy scales with how
 | `learning/` (Learning) | `draft-with-review` | draft from **cited cognitive-science sources** (Dunlosky, Roediger, Bjork, Pashler) as **DRAFT**; flag myths (learning styles) explicitly; **never auto-merge**; Ronald reviews. |
 | `startups/` (Startups & strategy) | `draft-with-review` | draft from **cited business/strategy sources** (Thiel, Porter, Christensen, Ries, Arthur) as **DRAFT**; lead with **ideas & debates, not book summaries** (value rule §2); flag contested framings; **never auto-merge**; Ronald reviews. |
 | `success/` (Success & leverage) | `draft-with-review` | draft from **cited high-signal essays** (Altman, Ravikant, Graham, Housel) as **DRAFT**; **flag as practitioner opinion / survivorship bias, not evidence**; keep to specific/non-obvious ideas (value rule §2); **never auto-merge**; Ronald reviews. |
+| `humor/` (Humor) | `draft-with-review` | draft from **cited humor research** (McGraw & Warren benign violation; Martin's humor styles; Provine) as **DRAFT**; flag the evo-psych / attraction claims as speculative; **never auto-merge**; Ronald reviews. |
 | *future* externally-checkable topics (e.g. tool/reference docs) | `autonomous` | research, draft, and finalize. |
 
 Rule of thumb: **start manual; ratchet a section UP only after its output has earned trust.** Default
@@ -120,6 +121,7 @@ Set per section, like the autonomy tier (§4). Levels:
 | `learning/` | `thorough` (the evidence-based study map + myths) |
 | `startups/` | `thorough` (the Zero to One canon + the key debates) |
 | `success/` | `thorough` (curated cross-essay ideas; opinion, flagged) |
+| `humor/` | `thorough` (theory + craft + social function) |
 | *new sections* | `anchors` until Ronald says otherwise |
 
 **"Done" signal:** a section is done-for-now when its Map covers its coverage tier; anything beyond sits

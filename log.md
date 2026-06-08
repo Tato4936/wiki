@@ -262,3 +262,21 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   decision-making/. Reciprocal backlinks left as a follow-up.
 - Replaced the §4 `success/` placeholder row, added the §5 coverage row, updated home catalog + `nav`.
   `mkdocs build --strict`: pass. Published (committed + pushed).
+
+## 2026-06-06 — New section: Humor
+
+- Followed from a chat thread on improving the "sense of humour" friendship pillar; Ronald asked for a
+  dedicated section.
+- Created **`humor/`** under the **People** domain (tier: `draft-with-review`; coverage: `thorough`) with
+  an index + **8 notes**, structured theory → craft → social function → practice: `benign-violation-theory`
+  (McGraw & Warren — the anchor), `classic-theories` (incongruity/superiority/relief ⚠️), `the-craft`
+  (timing, rule of three, callbacks, misdirection), `humor-styles` (Martin's HSQ — affiliative/self-
+  enhancing vs. aggressive/self-defeating), `self-deprecation` (targets; punching up vs. down), `shared-
+  laughter-and-bonding` (Provine — appreciation ≥ production), `humor-and-attraction` (⚠️ evo-psych —
+  flagged speculative), `how-to-get-funnier` (improv + input + practice; McGhee humor-training evidence).
+- All `source: cited` (McGraw & Warren, Martin, Provine, Bressler/Miller, McGhee); the attraction note is
+  explicitly flagged as speculative evo-psych. Cross-linked into connection/ (affectionate-teasing,
+  pratfall, lead-with-warmth), friendship/ (seven pillars — humour is one), eq/ (emotional contagion),
+  success/ (specific knowledge). Reciprocal backlinks left as a follow-up.
+- Updated home catalog, `nav` (under People, after Connection), and the CLAUDE.md autonomy + coverage
+  tables. `mkdocs build --strict`: pass. Published (committed + pushed).

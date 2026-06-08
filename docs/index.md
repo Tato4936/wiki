@@ -32,6 +32,7 @@ See [Conventions](about/conventions.md) for the full note template.
 ### People — relating to others
 - [**Emotional Intelligence**](eq/index.md) — the psychology of emotion: models, regulation, awareness, empathy.
 - [**Connection & rapport**](connection/index.md) — applied techniques for being liked and deepening bonds.
+- [**Humor**](humor/index.md) — what makes things funny (benign violation), the craft, and how to get funnier.
 - [**Body language**](body-language/index.md) — the nonverbal channel: what builds rapport, and the myths to ignore.
 - [**Friendship**](friendship/index.md) — the science of friendship: how many ties, how they're layered, why they matter.
 - [**Relationships**](relationships/index.md) — dating, communication, and partnership, captured critically.
