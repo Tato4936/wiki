@@ -197,6 +197,18 @@ nav:
           - Moats: startups/moats.md
           - Network effects & increasing returns: startups/network-effects-and-increasing-returns.md
           - Disruption & its critics: startups/disruption-and-its-critics.md
+      - "Success & leverage":
+          - Overview: success/index.md
+          - Compound yourself: success/compound-yourself.md
+          - "Leverage: labor, capital, code & media": success/leverage.md
+          - Own things, don't rent your time: success/own-things-not-time.md
+          - Specific knowledge: success/specific-knowledge.md
+          - Productize yourself: success/productize-yourself.md
+          - Pick what to work on: success/pick-what-to-work-on.md
+          - Independent thinking & conviction: success/independent-thinking-and-conviction.md
+          - Asymmetric bets: success/asymmetric-bets.md
+          - Long-term games: success/long-term-games.md
+          - The psychology of money: success/psychology-of-money.md
       - Goals:
           - Overview: goals/index.md
           - The two-engine plan: goals/the-plan.md

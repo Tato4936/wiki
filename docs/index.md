@@ -47,6 +47,7 @@ See [Conventions](about/conventions.md) for the full note template.
 ### Money & ambition — building wealth
 - [**Wealth & tax structuring**](wealth-structuring/index.md) — how the wealthy legally minimize tax (and the line where it becomes fraud).
 - [**Startups & strategy**](startups/index.md) — the Zero to One canon: monopoly over competition, power laws, moats, and the debates.
+- [**Success & leverage**](success/index.md) — Altman, Naval, Graham, Housel: compounding, leverage, owning equity, and the right bets.
 - [**Goals**](goals/index.md) — a personal, long-horizon plan for building wealth.
 
 *Planned: quantitative finance, investing.*

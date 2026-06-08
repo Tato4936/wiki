@@ -64,7 +64,7 @@ How much Claude may do **without Ronald**, per section. Autonomy scales with how
 | `goals/` (Goals) | `structure-only` | personal `source: me` synthesis — Claude files/formats only and **authors no claims**; seeded once with an **anonymized** `source: claude` DRAFT at Ronald's explicit request (review & promote to `me`). Keep published notes free of identifying personal/financial specifics. |
 | `learning/` (Learning) | `draft-with-review` | draft from **cited cognitive-science sources** (Dunlosky, Roediger, Bjork, Pashler) as **DRAFT**; flag myths (learning styles) explicitly; **never auto-merge**; Ronald reviews. |
 | `startups/` (Startups & strategy) | `draft-with-review` | draft from **cited business/strategy sources** (Thiel, Porter, Christensen, Ries, Arthur) as **DRAFT**; lead with **ideas & debates, not book summaries** (value rule §2); flag contested framings; **never auto-merge**; Ronald reviews. |
-| *future* soft topics (`success/`) | `structure-only` | only file/format what Ronald dropped in `inbox.md`; **author no claims**. |
+| `success/` (Success & leverage) | `draft-with-review` | draft from **cited high-signal essays** (Altman, Ravikant, Graham, Housel) as **DRAFT**; **flag as practitioner opinion / survivorship bias, not evidence**; keep to specific/non-obvious ideas (value rule §2); **never auto-merge**; Ronald reviews. |
 | *future* externally-checkable topics (e.g. tool/reference docs) | `autonomous` | research, draft, and finalize. |
 
 Rule of thumb: **start manual; ratchet a section UP only after its output has earned trust.** Default
@@ -119,6 +119,7 @@ Set per section, like the autonomy tier (§4). Levels:
 | `goals/` | `anchors` (the plan, the math, the edge, the risks) |
 | `learning/` | `thorough` (the evidence-based study map + myths) |
 | `startups/` | `thorough` (the Zero to One canon + the key debates) |
+| `success/` | `thorough` (curated cross-essay ideas; opinion, flagged) |
 | *new sections* | `anchors` until Ronald says otherwise |
 
 **"Done" signal:** a section is done-for-now when its Map covers its coverage tier; anything beyond sits

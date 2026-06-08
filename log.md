@@ -243,3 +243,22 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   scale", founder/team dynamics.
 - Updated home catalog, `nav` (nested under Money & ambition), and the CLAUDE.md autonomy + coverage tables.
   `mkdocs build --strict`: pass. Published (committed + pushed).
+
+## 2026-06-06 — New section: Success & leverage
+
+- Ronald asked to add Sam Altman's *How to Be Successful* + "similar high-quality blogs."
+- **Faithfully fetched** the two primary sources (blog.samaltman.com/how-to-be-successful; nav.al/rich)
+  rather than summarizing from memory; Graham (*How to Do Great Work*) and Housel (*Psychology of Money*)
+  from background knowledge.
+- **Value-rule call (§2):** the most one-prompt-away genre there is, so curated to **specific, non-obvious,
+  cross-essay ideas** and dropped the generic Altman points (work hard / be bold / focus / be willful).
+  Created **`success/`** under **Money & ambition** (tier upgraded from the pre-planned `structure-only` to
+  `draft-with-review`, since Ronald commissioned cited content; coverage `thorough`) with an index + **10
+  notes**: `compound-yourself`, `leverage` (labor/capital/code & media), `own-things-not-time`,
+  `specific-knowledge`, `productize-yourself`, `pick-what-to-work-on` (Graham), `independent-thinking-and-
+  conviction`, `asymmetric-bets`, `long-term-games`, `psychology-of-money` (Housel).
+- All `source: cited`; index carries a **"philosophy, not evidence — survivorship bias"** caveat. Richly
+  cross-linked into startups/, goals/, wealth-structuring/, learning/, friendship/, connection/, and
+  decision-making/. Reciprocal backlinks left as a follow-up.
+- Replaced the §4 `success/` placeholder row, added the §5 coverage row, updated home catalog + `nav`.
+  `mkdocs build --strict`: pass. Published (committed + pushed).
