@@ -1,5 +1,5 @@
 ---
-tags: [connection, conversation]
+tags: [connection, conversation, focus]
 source: cited
 confidence: high
 updated: 2026-06-04
@@ -12,6 +12,9 @@ updated: 2026-06-04
 > and people consistently like question-askers more.
 
 **Provenance:** `cited` · **Confidence:** high · **Updated:** 2026-06-04
+
+!!! danger "🎯 Personal focus — working on this"
+    I **assume the "obvious" answer** and skip the question. Cue: ask the simple follow-up anyway — it's usually less obvious than I think, it keeps the thread open, and it confirms (or corrects) my assumption.
 
 ## What it is
 

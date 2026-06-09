@@ -304,3 +304,14 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   lost). Documented the convention in CLAUDE.md §5 ("Home page & personal-focus flags"): home = focus
   dashboard + domain map; flagging a note = `focus` tag + 🎯 banner + a home-list line (keep them in sync).
 - `mkdocs build --strict`: pass. Published.
+
+## 2026-06-06 — Focus flags (+2): assuming too much
+
+- Ronald flagged a new growth area — **assuming too much in conversation** (the curse of knowledge /
+  illusory transparency: leaping to the inferred "obvious" instead of checking it, which closes threads or
+  builds on wrong assumptions).
+- Flagged the two exact antidotes: `connection/looping-for-understanding` (voice the guess and check before
+  building on it) and `connection/ask-follow-up-questions` (ask the obvious question anyway). Added both to
+  the home "What I'm working on" list per the convention. Focus dashboard now has **5 items**.
+- Offered: a dedicated "curse of knowledge" note (names the problem; currently only the antidotes are in
+  the wiki). `mkdocs build --strict`: pass. Published.

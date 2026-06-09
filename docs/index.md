@@ -14,6 +14,8 @@ Active growth areas — the cue first, then the note:
 - **Support, don't shift** → [Support vs. shift response](connection/support-vs-shift-response.md) — lead with a question about *their* thing; share mine only after they feel heard.
 - **Kill the instant defensiveness** → [Gottman: defensiveness](eq/gottman-ratio-and-four-horsemen.md) — feel the flash, *pause*, find the 1% that's fair before responding.
 - **Impact, not invented intent** → [Intent vs. impact](connection/intent-vs-impact.md) — first half-second, move from certainty to curiosity.
+- **Voice assumptions, don't bury them** → [Looping for understanding](connection/looping-for-understanding.md) — paraphrase and check ("so it's X — right?") before building on what I assumed.
+- **Ask the obvious question anyway** → [Ask follow-up questions](connection/ask-follow-up-questions.md) — I assume the answer and skip asking; the simple follow-up is usually less obvious than I think.
 
 *Each is flagged 🎯 in its note; all `focus`-tagged notes also collect on the [Tags page](tags.md).*
 
