@@ -374,3 +374,28 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
 - Updated home catalog (Body +1) + dashboard, `nav`, and CLAUDE.md §5 coverage (`upper-chest` row).
 - `mkdocs build --strict`: **pass**. **Published** (committed + pushed) — and this same push ships the three
   sections from the entry above (Habits, Focus, Health), which are now live too.
+
+## 2026-06-08 — Ingest: CZ & Justin Sun operator models (folded into Startups/Success)
+
+- **Source material:** two community-compiled "thinking framework" **persona-skill** files in `~/Downloads`
+  (`SKILL-en.md` = `cz-perspective`; `SKILL-en2.md` = `justin-sun-perspective`) — role-play OSes distilled
+  from each founder's tweets/autobiography/interviews. **Not** archived into `sources/` (third-party files,
+  public repo); provenance recorded here instead. Offered to archive them in `sources/` if Ronald wants.
+- **Decision (asked):** distill the *substance* into wiki notes (drop the role-play scaffolding), and **fold
+  into existing `startups/` + `success/`** — no new section. Curated **only the strongest, non-duplicative**
+  models (skipped dupes: CZ "Infinite Game" = existing `long-term-games`; "Platform Thinking" = network-
+  effects/moats; Sun "Texas Hold'em/all-in" ≈ monopoly+power-law; "leverage" = existing `leverage`).
+- **5 notes added**, all `source: cited` with a visible **second-hand-distillation caveat** (quotes
+  attributed to named primaries — memoirs/interviews — but **not independently verified**):
+  - `success/two-track-decision-system` (CZ) — fast 50/50 coin-flip + course-correct vs. structured
+    reversible/irreversible checklist. `medium`.
+  - `success/increment-over-stock` (Sun) — value growth-rate/slope over holdings. `medium`.
+  - `success/study-failure-not-success` (Sun) — inversion / pre-mortem (Munger parallel noted). `medium`.
+  - `startups/build-dont-hype` (CZ) — BUIDL > TALK, with the explicit **tension vs. `distribution-and-sales`**
+    held in a note admonition. `medium`.
+  - `startups/attention-as-value` (Sun) — attention→value/memecoin engine. **`confidence: contested`** with a
+    "Contested — describe, don't endorse" admonition (the Harvester/SEC context; attention ≠ created value).
+- **Justin Sun framed critically throughout** (controversial figure); his two `success` notes link to the
+  `attention-as-value` caveat. Both index Maps got an **"Operator notes — crypto founders (second-hand;
+  flagged)"** sub-group with the caveat; `nav` updated (2 under Startups, 3 under Success).
+- `mkdocs build --strict`: **pass**. **Published** (committed + pushed).

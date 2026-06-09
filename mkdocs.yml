@@ -235,6 +235,8 @@ nav:
           - Moats: startups/moats.md
           - Network effects & increasing returns: startups/network-effects-and-increasing-returns.md
           - Disruption & its critics: startups/disruption-and-its-critics.md
+          - Build, don't hype (CZ): startups/build-dont-hype.md
+          - Attention as value (Justin Sun): startups/attention-as-value.md
       - "Success & leverage":
           - Overview: success/index.md
           - Compound yourself: success/compound-yourself.md
@@ -247,6 +249,9 @@ nav:
           - Asymmetric bets: success/asymmetric-bets.md
           - Long-term games: success/long-term-games.md
           - The psychology of money: success/psychology-of-money.md
+          - The two-track decision system (CZ): success/two-track-decision-system.md
+          - Increment over stock (Justin Sun): success/increment-over-stock.md
+          - Study failure, not success (Justin Sun): success/study-failure-not-success.md
       - Goals:
           - Overview: goals/index.md
           - The two-engine plan: goals/the-plan.md

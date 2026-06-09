@@ -27,6 +27,12 @@ Status flags: ✅ widely-held / well-supported · ⚠️ contested / one view am
 - [Network effects & increasing returns](network-effects-and-increasing-returns.md) ✅ — the economics of winner-take-all
 - [Disruption & its critics](disruption-and-its-critics.md) ⚠️ — Christensen's theory, and why "disruption" is overused
 
+### Operator notes — crypto founders (second-hand; flagged)
+*Distilled from community-compiled "thinking framework" files — quotes attributed to the founders' books/interviews but not independently verified (`medium`/`contested`). Justin Sun is controversial; framed critically.*
+
+- [Build, don't hype (CZ)](build-dont-hype.md) ✅⚠️ — ship a live product; and the real tension with distribution
+- [Attention as value (Justin Sun)](attention-as-value.md) ⚠️ — the memecoin engine; describe, don't endorse
+
 ## Backlog
 
 | Note | Status | Why / when |

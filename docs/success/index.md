@@ -30,6 +30,13 @@ Status flags: ✅ echoed across the canon · ⚠️ one strong view.
 - [Long-term games with long-term people](long-term-games.md) ✅ — trust and returns both compound
 - [The psychology of money](psychology-of-money.md) ⚠️ — "enough," tails, and never blowing up
 
+### Operator notes — crypto founders (second-hand; flagged)
+*Distilled from community-compiled "thinking framework" files — quotes attributed to the founders' books/interviews but not independently verified (`medium`). Justin Sun is controversial; his notes are framed critically.*
+
+- [The two-track decision system (CZ)](two-track-decision-system.md) ✅⚠️ — match decision speed to reversibility; decide fast, course-correct
+- [Increment over stock (Justin Sun)](increment-over-stock.md) ⚠️ — value the growth rate, not the holdings
+- [Study failure, not success (Justin Sun)](study-failure-not-success.md) ⚠️ — invert: study how others died, then avoid that
+
 ## Backlog
 
 | Note | Status | Why / when |
