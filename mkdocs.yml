@@ -158,6 +158,20 @@ nav:
           - Dual coding: learning/dual-coding.md
           - The fluency illusion: learning/the-fluency-illusion.md
           - Learning styles (myth): learning/learning-styles-myth.md
+      - "Focus & deep work":
+          - Overview: focus/index.md
+          - Deep work: focus/deep-work.md
+          - Attention residue & task-switching: focus/attention-residue.md
+          - Time-blocking: focus/time-blocking.md
+          - Distraction & dopamine: focus/distraction-and-dopamine.md
+      - "Habits & behavior change":
+          - Overview: habits/index.md
+          - The habit loop: habits/the-habit-loop.md
+          - Implementation intentions: habits/implementation-intentions.md
+          - "Make it easy: context design": habits/make-it-easy-context-design.md
+          - Habit stacking & temptation bundling: habits/habit-stacking-and-temptation-bundling.md
+          - Identity-based habits: habits/identity-based-habits.md
+          - How habits actually form: habits/how-habits-form.md
   - Body:
       - Lookism & appearance:
           - Overview: lookism/index.md
@@ -184,6 +198,20 @@ nav:
           - Form & injuries: gym/form-and-injuries.md
           - Protein & nutrition: gym/protein-and-nutrition.md
           - Recovery & sleep: gym/recovery-and-sleep.md
+      - Upper chest:
+          - Overview: upper-chest/index.md
+          - The clavicular head & regional hypertrophy: upper-chest/clavicular-head-anatomy.md
+          - Incline angle: upper-chest/incline-angle.md
+          - Exercise selection: upper-chest/exercise-selection.md
+          - Programming to bring it up: upper-chest/programming.md
+      - "Health & performance":
+          - Overview: health/index.md
+          - "Sleep: the core": health/sleep-the-core.md
+          - Sleep regularity & circadian rhythm: health/sleep-regularity-and-circadian.md
+          - Caffeine & adenosine: health/caffeine-and-adenosine.md
+          - Nutrition fundamentals: health/nutrition-fundamentals.md
+          - Zone 2 & VO₂max: health/zone-2-and-vo2max.md
+          - Healthspan vs. lifespan: health/healthspan-vs-lifespan.md
   - "Money & ambition":
       - Wealth & tax structuring:
           - Overview: wealth-structuring/index.md

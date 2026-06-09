@@ -315,3 +315,62 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   the home "What I'm working on" list per the convention. Focus dashboard now has **5 items**.
 - Offered: a dedicated "curse of knowledge" note (names the problem; currently only the antidotes are in
   the wiki). `mkdocs build --strict`: pass. Published.
+
+## 2026-06-08 — Three new sections: Habits, Focus & deep work, Health & performance
+
+- From a chat thread proposing four growth areas for the wiki. Ronald picked **1, 2, 4** and **declined 3**
+  (mental health / resilience — says he's adapted to high stress and isn't worried about burnout). So no
+  `resilience/` section was created.
+- All three new sections: tier **`draft-with-review`**, coverage **`anchors`**, under the existing domains
+  (Habits + Focus → **Mind**; Health → **Body**). Each index carries a **"Drafted — pending review"**
+  admonition; all notes are `source: cited` with **real citations** but provenance is **not yet finalized**
+  — they're DRAFTs for Ronald to review/correct/promote.
+- **`habits/`** (Mind) — index + **6 notes**: `the-habit-loop` (Duhigg/Clear/Graybiel), `implementation-
+  intentions` (Gollwitzer 1999; Gollwitzer & Sheeran 2006 meta d≈0.65 — the best-evidenced tactic), `make-
+  it-easy-context-design` (Wood — ~43% of behavior is context-cued; Galla & Duckworth), `habit-stacking-
+  and-temptation-bundling` (Clear/Fogg; Milkman 2014), `identity-based-habits` (Clear + Bem self-perception;
+  flagged practitioner-framework, `medium`), `how-habits-form` (Lally 2010 — median ~66 days; kills the
+  21-day myth).
+- **`focus/`** (Mind) — index + **4 notes**: `deep-work` (Newport — flagged as thesis, not experiment,
+  `medium`), `attention-residue` (Leroy 2009 + Monsell switching cost + Ophir 2009), `time-blocking`
+  (Newport; leans on the implementation-intentions evidence base), `distraction-and-dopamine`
+  (`confidence: contested` — variable-ratio/Eyal real; **"dopamine detox" flagged as pop-neuroscience**,
+  Berridge wanting-vs-liking).
+- **`health/`** (Body) — index + **6 notes**: `sleep-the-core` (AASM/NSF 7–9h consensus + Xie 2013
+  glymphatic; **Contested admonition on *Why We Sleep* / Guzey critique**), `sleep-regularity-and-circadian`
+  (Windred 2024 — regularity > duration; Roenneberg social jetlag), `caffeine-and-adenosine` (Drake 2013;
+  Borbély two-process; half-life rule), `nutrition-fundamentals` (Hall 2019 UPF RCT; contested-margins
+  caveat), `zone-2-and-vo2max` (Mandsager 2018 JAMA; Attia), `healthspan-vs-lifespan` (Attia four horsemen
+  / Centenarian Decathlon — flagged practitioner-opinion).
+- **Dedup honored:** Health cross-links the existing `gym/recovery-and-sleep` and `gym/protein-and-nutrition`
+  (training angle) and `lookism/the-unsexy-basics` rather than restating them. New sections also cross-link
+  `learning/` (focus↔learning; sleep↔memory) and `success/long-term-games`.
+- Updated home catalog (Mind +2, Body +1), `nav` (mkdocs.yml), and CLAUDE.md §4 autonomy + §5 coverage
+  tables (3 rows each). **Reciprocal backlinks from the existing notes into the new sections left as a
+  follow-up** (as with humor/ & success/).
+- `mkdocs build --strict`: **pass** (exit 0, no broken-link/nav warnings). **Not yet published** — awaiting
+  Ronald's review and an explicit go-ahead to push (needs the `Tato4936` account switch).
+
+## 2026-06-08 — Policy change: post directly (no draft gate) + new section: Upper chest
+
+- **Policy.** Ronald: "remove the draft-with-review thing, just post it directly every time." Flipped the
+  maintaining posture to **autonomous / post-directly** in every section — no DRAFT gate, no waiting for
+  sign-off. Rewrote **CLAUDE.md §4** (autonomy-tier table → "Posting policy & per-section flags": kept the
+  honesty/safety **standing flags** — avoidance-vs-evasion, blackpill, *Why We Sleep*/EMG, contested flags,
+  `goals/` `me`-only — dropped the gate). Updated §6 step 4 + step 10 (publish after build) and §7 step 8
+  (apply fixes directly), and the published `about/conventions.md` ("How it's maintained" — posts directly).
+  Removed the three "Drafted — pending review" banners from `habits/`, `focus/`, `health/` indexes.
+  **Guardrails kept:** real citations only, never fabricate, `contested` admonitions, never author `me`.
+- **New section `upper-chest/`** (Body, after The gym; coverage `anchors`) — Ronald's stated **#1 training
+  goal**. Index + **4 notes**: `clavicular-head-anatomy` (two heads; **regional hypertrophy is real** —
+  Antonio 2000), `incline-angle` (Rodríguez-Ridao 2020 — ~30° peaks upper-pec EMG, 45° → delt; Trebs 2010),
+  `exercise-selection` (low-to-high line of pull; incline press + low-to-high cable; reverse-grip flagged
+  weak), `programming` (priority principle + volume/frequency — Schoenfeld 2016/2017 — + overload).
+- **Honesty flag:** whole section carries an **"EMG ≠ hypertrophy"** caveat (activation is an acute proxy);
+  firm ground is the anatomy + regional-hypertrophy basis + progressive overload. Not medical advice.
+- **Personal-focus flagged** per the convention: `focus` tag + 🎯 admonition on the `upper-chest` index, and
+  a new **first** item on the home "What I'm working on" dashboard (now **6 items**). Dedup: cross-links
+  `gym/` (overload, building-muscle, recovery, protein, form) rather than restating fundamentals.
+- Updated home catalog (Body +1) + dashboard, `nav`, and CLAUDE.md §5 coverage (`upper-chest` row).
+- `mkdocs build --strict`: **pass**. **Published** (committed + pushed) — and this same push ships the three
+  sections from the entry above (Habits, Focus, Health), which are now live too.

@@ -45,31 +45,34 @@ Every note declares `source:` in its front matter:
 Confidence scale: `high` | `medium` | `low` | `contested`. A `contested` note **must** carry a
 `!!! warning "Contested"` admonition whose job is to explain the dispute, not assert the claim.
 
-## 4. Per-section autonomy tiers
+## 4. Posting policy & per-section flags
 
-How much Claude may do **without Ronald**, per section. Autonomy scales with how externally
-**verifiable** a topic is — soft / contested domains stay supervised.
+**Default posture: autonomous — post directly.** Claude may research, draft, finalize, and **publish**
+(commit + push, §9) in every section, with **no draft-review gate** (Ronald's directive, 2026-06-08).
+Don't mark notes DRAFT and don't wait for sign-off.
 
-| Section | Tier | Claude may… |
-|---------|------|-------------|
-| `eq/` (Emotional Intelligence) | `draft-with-review` | research + draft notes as **DRAFT** (`source: claude`, or `cited` with a real source); **never auto-merge**; Ronald reviews and sets final provenance. |
-| `relationships/` | `draft-with-review` | draft from a **specific cited source** as **DRAFT**; flag worldview + lack of evidence; **never auto-merge**; Ronald reviews and sets final provenance. |
-| `connection/` (Connection & rapport) | `draft-with-review` | draft applied techniques from **specific cited sources** (books / research) as **DRAFT**; **never auto-merge**; Ronald reviews and sets final provenance. |
-| `body-language/` (Body language) | `draft-with-review` | draft from **specific cited sources** as **DRAFT**; flag myths / overreach explicitly; **never auto-merge**; Ronald reviews and sets final provenance. |
-| `wealth-structuring/` (Wealth & tax structuring) | `draft-with-review` | draft from cited tax/finance sources as **DRAFT**; **clearly mark legal avoidance vs. illegal evasion** (never write an evasion how-to); flag US-centric + not-advice; **never auto-merge**; Ronald reviews. |
-| `lookism/` (Lookism & appearance) | `draft-with-review` | draft from cited science as **DRAFT**; emphasize **controllable/healthy** levers; **flag the blackpill / body-dysmorphia material** and never promote dangerous procedures; **never auto-merge**; Ronald reviews. |
-| `gym/` (The gym) | `draft-with-review` | draft from cited exercise-science sources as **DRAFT**; **never auto-merge**; Ronald reviews. |
-| `friendship/` (Friendship) | `draft-with-review` | draft from **specific cited sources** (Dunbar, Hall, Holt-Lunstad) as **DRAFT**; flag the contested Dunbar-number dispute; **never auto-merge**; Ronald reviews and sets final provenance. |
-| `decision-making/` (Judgment & decision-making) | `draft-with-review` | draft from **cited sources** (Kahneman, Tetlock, Gigerenzer) as **DRAFT**; flag replication-contested claims; **never auto-merge**; Ronald reviews. |
-| `goals/` (Goals) | `structure-only` | personal `source: me` synthesis — Claude files/formats only and **authors no claims**; seeded once with an **anonymized** `source: claude` DRAFT at Ronald's explicit request (review & promote to `me`). Keep published notes free of identifying personal/financial specifics. |
-| `learning/` (Learning) | `draft-with-review` | draft from **cited cognitive-science sources** (Dunlosky, Roediger, Bjork, Pashler) as **DRAFT**; flag myths (learning styles) explicitly; **never auto-merge**; Ronald reviews. |
-| `startups/` (Startups & strategy) | `draft-with-review` | draft from **cited business/strategy sources** (Thiel, Porter, Christensen, Ries, Arthur) as **DRAFT**; lead with **ideas & debates, not book summaries** (value rule §2); flag contested framings; **never auto-merge**; Ronald reviews. |
-| `success/` (Success & leverage) | `draft-with-review` | draft from **cited high-signal essays** (Altman, Ravikant, Graham, Housel) as **DRAFT**; **flag as practitioner opinion / survivorship bias, not evidence**; keep to specific/non-obvious ideas (value rule §2); **never auto-merge**; Ronald reviews. |
-| `humor/` (Humor) | `draft-with-review` | draft from **cited humor research** (McGraw & Warren benign violation; Martin's humor styles; Provine) as **DRAFT**; flag the evo-psych / attraction claims as speculative; **never auto-merge**; Ronald reviews. |
-| *future* externally-checkable topics (e.g. tool/reference docs) | `autonomous` | research, draft, and finalize. |
+The honesty & safety rules are **not** a gate and still bind:
 
-Rule of thumb: **start manual; ratchet a section UP only after its output has earned trust.** Default
-new sections to `structure-only` or `draft-with-review`, never `autonomous`.
+- `cited` needs a **real** citation — **never fabricate** sources. Disputed science wears a `contested`
+  "Contested" admonition. **Never author `source: me`** (only Ronald does).
+- Respect the **value rule** (§2) and each section's **coverage** tier (§5).
+- Apply the section's **standing flags** below.
+
+### Standing flags (apply where relevant)
+
+- `wealth-structuring/` — mark **legal avoidance vs. illegal evasion** (never an evasion how-to); US-centric, not advice.
+- `lookism/` — emphasize **controllable/healthy** levers; **flag blackpill / body-dysmorphia**; never promote dangerous procedures.
+- `health/` — **not medical advice**; flag ***Why We Sleep* overreach** and Attia's practitioner protocols as opinion.
+- `upper-chest/` — flag **EMG ≠ hypertrophy** (muscle activation is an acute proxy, not proof of growth); not medical advice.
+- `relationships/` · `connection/` · `body-language/` — flag worldview / myths / overreach; soft claims need a cited source.
+- `decision-making/` · `learning/` — flag **replication-contested** claims and myths (e.g. learning styles).
+- `friendship/` — flag the contested **Dunbar-number** dispute.
+- `success/` — flag as **practitioner opinion / survivorship bias**, not evidence.
+- `startups/` — lead with **ideas & debates, not book summaries**; flag contested framings.
+- `humor/` — flag evo-psych / attraction claims as **speculative**.
+- `habits/` — flag practitioner frameworks vs. evidence and the **21-day myth**.
+- `focus/` — flag Newport's **thesis** and the **"dopamine detox"** myth as contested.
+- `goals/` — Ronald's `source: me` synthesis: Claude **files/formats only, authors no claims**; keep identifying personal/financial specifics out.
 
 ## 5. Note format, depth & coverage
 
@@ -122,6 +125,10 @@ Set per section, like the autonomy tier (§4). Levels:
 | `startups/` | `thorough` (the Zero to One canon + the key debates) |
 | `success/` | `thorough` (curated cross-essay ideas; opinion, flagged) |
 | `humor/` | `thorough` (theory + craft + social function) |
+| `habits/` | `anchors` (the loop + the load-bearing techniques) |
+| `focus/` | `anchors` (depth, residue, distraction, scheduling) |
+| `health/` | `anchors` (sleep, nutrition, fitness, healthspan) |
+| `upper-chest/` | `anchors` (anatomy, angle, exercise selection, programming) |
 | *new sections* | `anchors` until Ronald says otherwise |
 
 **"Done" signal:** a section is done-for-now when its Map covers its coverage tier; anything beyond sits
@@ -146,11 +153,9 @@ Run when Ronald says "ingest" or drops material into `inbox.md` / `sources/`.
 2. For each item, apply the **value rule** (§2). If it fails, propose dropping it — ask, don't pad.
 3. Classify into a section + cluster. If a near-duplicate note exists, **merge / enrich** rather than
    create a new one (dedup).
-4. Honor the section's **autonomy tier** (§4):
-   - `structure-only`: file and format only; author no new claims.
-   - `draft-with-review`: create the note as a visible **DRAFT** (`source: claude`, or `cited` if a
-     real source is attached); set confidence honestly; do **not** merge silently.
-   - `autonomous`: may research, draft, and finalize.
+4. **Post directly** (§4): research, draft, finalize, and publish. Use `cited` with a **real** source
+   (never fabricate); set confidence honestly (`contested` where due); apply the section's standing
+   flags. Exception: `goals/` stays Ronald's `source: me` — file/format only, author no claims.
 5. Fill the template at the **§5 depth default (lean / one-screen)**: TL;DR, body, How to apply, **real**
    Sources (never fabricate citations), Related (with reciprocal backlinks). Stay within the section's
    **coverage** tier (§5) — don't expand beyond it.
@@ -159,7 +164,7 @@ Run when Ronald says "ingest" or drops material into `inbox.md` / `sources/`.
 7. Add the page to `nav:` in `mkdocs.yml`.
 8. Clear the consumed item from `inbox.md`.
 9. Append a dated entry to `log.md`: what was ingested, where filed, provenance, open questions.
-10. Run `mkdocs build --strict`; it **must pass** before reporting done.
+10. Run `mkdocs build --strict`; it **must pass**. Then **publish** (commit + push, §9) — the default now.
 
 ## 7. Operation — LINT
 
@@ -172,8 +177,8 @@ Run periodically or when Ronald says "lint." Produce a report; apply only fixes 
 5. **Contradictions:** surface conflicting claims across notes — **do not silently pick a winner.**
 6. **Provenance hygiene:** any `source: claude` note lingering unreviewed → remind Ronald to verify/cite.
 7. **Confidence audit:** any `confidence: contested` note missing its "Contested" admonition.
-8. Write findings as a dated `log.md` entry. In `draft-with-review` / `structure-only` sections, **ask
-   before content changes.**
+8. Write findings as a dated `log.md` entry, then **apply fixes directly and publish.** Exception:
+   `goals/` (Ronald's `source: me`) — don't author personal claims; ask first.
 
 ## 8. Verification (always, after any change)
 

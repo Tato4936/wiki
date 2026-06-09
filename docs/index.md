@@ -11,6 +11,7 @@ What I'm working on right now, and the map of everything I've learned.
 
 Active growth areas — the cue first, then the note:
 
+- **Build my upper chest (my weak point)** → [Upper chest](upper-chest/index.md) — incline work *first* while fresh, ~30° (not 45°+), and overload it like a main lift.
 - **Support, don't shift** → [Support vs. shift response](connection/support-vs-shift-response.md) — lead with a question about *their* thing; share mine only after they feel heard.
 - **Kill the instant defensiveness** → [Gottman: defensiveness](eq/gottman-ratio-and-four-horsemen.md) — feel the flash, *pause*, find the 1% that's fair before responding.
 - **Impact, not invented intent** → [Intent vs. impact](connection/intent-vs-impact.md) — first half-second, move from certainty to curiosity.
@@ -31,11 +32,15 @@ Active growth areas — the cue first, then the note:
 
 ### Mind — thinking & learning
 - [**Learning**](learning/index.md) — learn fast and for keeps: retrieval, spacing, interleaving — and the myths.
+- [**Focus & deep work**](focus/index.md) — protecting attention, the scarce input: deep work, attention residue, distraction, time-blocking.
+- [**Habits & behavior change**](habits/index.md) — how to actually *install* a change: cue–routine–reward, implementation intentions, context design.
 - [**Judgment & decision-making**](decision-making/index.md) — bias vs. noise, the replication crisis, and what improves judgment.
 
 ### Body — health & appearance
 - [**Lookism & appearance**](lookism/index.md) — how looks affect how you're treated, and the controllable levers (incl. skin).
 - [**The gym**](gym/index.md) — evidence-based training to build muscle, get stronger, and feel better.
+- [**Upper chest**](upper-chest/index.md) — 🎯 bringing up a lagging part: the clavicular head, incline angle, exercise selection, and prioritization.
+- [**Health & performance**](health/index.md) — the 30-year substrate: sleep, nutrition, cardiorespiratory fitness, and healthspan.
 
 ### Money & ambition — building wealth
 - [**Wealth & tax structuring**](wealth-structuring/index.md) — how the wealthy legally minimize tax (and the line where it becomes fraud).

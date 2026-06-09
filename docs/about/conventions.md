@@ -68,17 +68,10 @@ Concrete, practitioner-facing takeaways.
 Links between notes are **relative Markdown links** to the `.md` file, which the build checks for
 breakage. Every new note is added to `nav:` in `mkdocs.yml`.
 
-## Autonomy tiers
+## How it's maintained
 
-How much the maintaining agent may do **without me**, per section — scaled to how externally
-verifiable a topic is:
-
-| Tier | The agent may… |
-|------|----------------|
-| `autonomous` | research, draft, and finalize (only for externally checkable topics) |
-| `draft-with-review` | draft as a DRAFT, never merge; I review and set provenance |
-| `structure-only` | only file and format what I dropped in the inbox; author no claims |
-
-Emotional Intelligence is `draft-with-review`. The maintaining agent's full operating manual — the
-value rule, provenance system, and Ingest / Lint procedures — lives in the repo's `CLAUDE.md`, which
-is kept out of the published site.
+The maintaining agent (Claude) **posts directly** — it researches, drafts, finalizes, and publishes
+notes without a review gate. The honesty rules still bind it: `cited` needs a real citation, disputed
+claims wear a "Contested" callout, it never fabricates a source, and it never authors `me` content
+(that's mine). Its full operating manual — the value rule, provenance system, and Ingest / Lint
+procedures — lives in the repo's `CLAUDE.md`, kept out of the published site.
