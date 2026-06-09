@@ -1,5 +1,5 @@
 ---
-tags: [connection, repair]
+tags: [connection, repair, focus]
 source: cited
 confidence: high
 updated: 2026-06-04
@@ -12,6 +12,9 @@ updated: 2026-06-04
 > impact, get curious about the intent, and own your impact even when your intent was good.
 
 **Provenance:** `cited` · **Confidence:** high · **Updated:** 2026-06-04
+
+!!! danger "🎯 Personal focus — working on this"
+    My instant defensiveness usually starts *here* — reading **malice into impact** ("they *meant* it"). Cue: in the first half-second, move **from certainty to curiosity** — respond to the impact, not the intent I invented.
 
 ## What it is
 

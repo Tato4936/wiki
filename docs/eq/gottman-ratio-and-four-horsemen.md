@@ -1,5 +1,5 @@
 ---
-tags: [eq, applied]
+tags: [eq, applied, focus]
 source: cited
 confidence: contested
 updated: 2026-06-03
@@ -12,6 +12,9 @@ updated: 2026-06-03
 > prediction" figures, however, are contested.
 
 **Provenance:** `cited` · **Confidence:** contested · **Updated:** 2026-06-03
+
+!!! danger "🎯 Personal focus — working on this"
+    **Defensiveness** is my reflex — I counter-attack/justify *instantly*. The drill: feel the flash, **pause**, and find the 1% that's fair (defensiveness → **taking responsibility**) before I respond.
 
 ## What it is
 

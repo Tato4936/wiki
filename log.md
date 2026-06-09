@@ -280,3 +280,17 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   success/ (specific knowledge). Reciprocal backlinks left as a follow-up.
 - Updated home catalog, `nav` (under People, after Connection), and the CLAUDE.md autonomy + coverage
   tables. `mkdocs build --strict`: pass. Published (committed + pushed).
+
+## 2026-06-06 — Personal-focus flags (personalization)
+
+- Ronald wanted to mark the notes he's actively working on, to "pay extra attention." Introduced a
+  lightweight **personal-focus** convention: a `focus` tag (auto-aggregates on the Tags page) + a prominent
+  `!!! danger "🎯 Personal focus — working on this"` admonition carrying a personalized, goal-framed cue.
+- Flagged **3 notes** matching his stated growth areas: `connection/support-vs-shift-response` (his
+  conversational-narcissism / shift-response default), `eq/gottman-ratio-and-four-horsemen` (defensiveness
+  → take responsibility), `connection/intent-vs-impact` (the instant malice-into-impact reflex that fires
+  his defensiveness).
+- Cues are first-person and **goal-framed** (not confessional), so low-sensitivity on the pseudonymous /
+  noindex site. `mkdocs build --strict`: pass. Published.
+- Offered (not built): a dedicated "Focus" dashboard page; and to localize the focus layer if he'd prefer
+  it private.
