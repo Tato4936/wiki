@@ -294,3 +294,13 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   noindex site. `mkdocs build --strict`: pass. Published.
 - Offered (not built): a dedicated "Focus" dashboard page; and to localize the focus layer if he'd prefer
   it private.
+
+## 2026-06-06 — Home page → personal dashboard
+
+- Ronald found the front-page "what this wiki is / how to read it" meta blurb useless. Replaced it: the home
+  page now **leads with a 🎯 What I'm working on dashboard** (the 3 focus notes + cues), then the four-domain
+  map — and nothing else.
+- The removed meta description already lives in CLAUDE.md §1–§3 and `docs/about/conventions.md` (nothing
+  lost). Documented the convention in CLAUDE.md §5 ("Home page & personal-focus flags"): home = focus
+  dashboard + domain map; flagging a note = `focus` tag + 🎯 banner + a home-list line (keep them in sync).
+- `mkdocs build --strict`: pass. Published.

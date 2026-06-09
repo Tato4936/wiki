@@ -5,27 +5,17 @@ hide:
 
 # Wiki
 
-A single, lean place to learn and accumulate what I actually want to know — built on the
-[LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern.
+What I'm working on right now, and the map of everything I've learned.
 
-## What belongs here
+## 🎯 What I'm working on
 
-One rule decides everything: **the value is knowledge that isn't already one prompt away from an LLM.**
-Generic, encyclopedia-style summaries are out. A page earns its place only if it holds
+Active growth areas — the cue first, then the note:
 
-- **my own synthesis** — conclusions and frameworks conditioned on my situation, or
-- **faithfully absorbed curated sources** — specific, named, and cited.
+- **Support, don't shift** → [Support vs. shift response](connection/support-vs-shift-response.md) — lead with a question about *their* thing; share mine only after they feel heard.
+- **Kill the instant defensiveness** → [Gottman: defensiveness](eq/gottman-ratio-and-four-horsemen.md) — feel the flash, *pause*, find the 1% that's fair before responding.
+- **Impact, not invented intent** → [Intent vs. impact](connection/intent-vs-impact.md) — first half-second, move from certainty to curiosity.
 
-## How to read this wiki
-
-Every **content note** declares two things in a header line:
-
-| Field | Values | Meaning |
-|-------|--------|---------|
-| **Provenance** | `me` · `cited` · `claude` | Whose knowledge this is. `me` = my synthesis (highest trust); `cited` = absorbed from a named source; `claude` = LLM-drafted, unverified (lowest trust). |
-| **Confidence** | `high` · `medium` · `low` · `contested` | How settled it is. `contested` ideas carry a visible **Contested** callout and are never stated as fact. |
-
-See [Conventions](about/conventions.md) for the full note template.
+*Each is flagged 🎯 in its note; all `focus`-tagged notes also collect on the [Tags page](tags.md).*
 
 ## The four domains
 
@@ -50,5 +40,3 @@ See [Conventions](about/conventions.md) for the full note template.
 - [**Startups & strategy**](startups/index.md) — the Zero to One canon: monopoly over competition, power laws, moats, and the debates.
 - [**Success & leverage**](success/index.md) — Altman, Naval, Graham, Housel: compounding, leverage, owning equity, and the right bets.
 - [**Goals**](goals/index.md) — a personal, long-horizon plan for building wealth.
-
-*Planned: quantitative finance, investing.*
