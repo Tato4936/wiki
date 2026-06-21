@@ -32,7 +32,8 @@ regulate better) and the perceiving/understanding branches of the
 ## How to apply
 
 - **Expand the vocabulary.** When you notice a feeling, push past the first word to a more specific
-  one. The granularity *is* the skill, and it's trainable.
+  one — browse the [emotion vocabulary](emotion-vocabulary/index.md) to find it. The granularity *is* the
+  skill, and it's trainable.
 - Ask "what *kind* of bad?" — locate the specific emotion and its cause. That specificity is what makes
   the next move obvious.
 - Granularity compounds with [affect labeling](affect-labeling.md): the more precise the name, the more
@@ -45,6 +46,7 @@ regulate better) and the perceiving/understanding branches of the
 
 ## Related
 
+- [Emotion vocabulary (granularity lexicon)](emotion-vocabulary/index.md) — the practical word-bank to build this skill
 - [Affect labeling](affect-labeling.md) — granularity makes labeling more effective
 - [Mayer–Salovey ability model](mayer-salovey-ability-model.md) — the perceiving/understanding branches
 - [Reappraisal vs. suppression](reappraisal-vs-suppression.md) — what to do once you've named it precisely

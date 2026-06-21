@@ -5,20 +5,7 @@ hide:
 
 # Wiki
 
-What I'm working on right now, and the map of everything I've learned.
-
-## 🎯 What I'm working on
-
-Active growth areas — the cue first, then the note:
-
-- **Build my upper chest (my weak point)** → [Upper chest](upper-chest/index.md) — incline work *first* while fresh, ~30° (not 45°+), and overload it like a main lift.
-- **Support, don't shift** → [Support vs. shift response](connection/support-vs-shift-response.md) — lead with a question about *their* thing; share mine only after they feel heard.
-- **Kill the instant defensiveness** → [Gottman: defensiveness](eq/gottman-ratio-and-four-horsemen.md) — feel the flash, *pause*, find the 1% that's fair before responding.
-- **Impact, not invented intent** → [Intent vs. impact](connection/intent-vs-impact.md) — first half-second, move from certainty to curiosity.
-- **Voice assumptions, don't bury them** → [Looping for understanding](connection/looping-for-understanding.md) — paraphrase and check ("so it's X — right?") before building on what I assumed.
-- **Ask the obvious question anyway** → [Ask follow-up questions](connection/ask-follow-up-questions.md) — I assume the answer and skip asking; the simple follow-up is usually less obvious than I think.
-
-*Each is flagged 🎯 in its note; all `focus`-tagged notes also collect on the [Tags page](tags.md).*
+A map of everything I've learned, across four domains.
 
 ## The four domains
 
@@ -39,7 +26,7 @@ Active growth areas — the cue first, then the note:
 ### Body — health & appearance
 - [**Lookism & appearance**](lookism/index.md) — how looks affect how you're treated, and the controllable levers (incl. skin).
 - [**The gym**](gym/index.md) — evidence-based training to build muscle, get stronger, and feel better.
-- [**Upper chest**](upper-chest/index.md) — 🎯 bringing up a lagging part: the clavicular head, incline angle, exercise selection, and prioritization.
+- [**Upper chest**](upper-chest/index.md) — bringing up a lagging part: the clavicular head, incline angle, exercise selection, and prioritization.
 - [**Health & performance**](health/index.md) — the 30-year substrate: sleep, nutrition, cardiorespiratory fitness, and healthspan.
 
 ### Money & ambition — building wealth

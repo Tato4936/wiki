@@ -1,17 +1,11 @@
 ---
 hide:
   - tags
-tags:
-  - upper-chest
-  - focus
 ---
 
 # Upper chest
 
 The clavicular (**upper**) head of the pec is the most commonly **lagging** part of the chest: flat pressing biases the bigger sternal head, so the upper chest is chronically undertrained and the "upper shelf" never fills in. The fix has a real basis — **regional hypertrophy exists**, so you *can* preferentially bias the upper pec, mostly by pressing and flying on an **incline** with the right **angle** and **line of pull**, then **prioritizing** that work and overloading it for months.
-
-!!! danger "🎯 Personal focus — working on this"
-    Upper chest is my weak point and current **#1 training goal**. Cue: **incline work comes _first_** in every chest session, while I'm fresh — ~30° (not 45°+), full range of motion, and I progressively overload it like a main lift, not an afterthought tacked on at the end.
 
 Status flags: ✅ well-supported · ⚠️ EMG-based / mechanistic (activation ≠ proven growth).
 

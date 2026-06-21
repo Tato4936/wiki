@@ -1,5 +1,5 @@
 ---
-tags: [connection, listening, focus]
+tags: [connection, listening]
 source: cited
 confidence: high
 updated: 2026-06-04
@@ -12,9 +12,6 @@ updated: 2026-06-04
 > turns ordinary listening into the kind people can feel.
 
 **Provenance:** `cited` · **Confidence:** high · **Updated:** 2026-06-04
-
-!!! danger "🎯 Personal focus — working on this"
-    I **assume** I understood and build on it. Cue: voice the guess and check — *"so it sounds like X — right?"* — **before** I respond, instead of silently assuming I got it.
 
 ## What it is
 

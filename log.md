@@ -399,3 +399,26 @@ Append-only. Newest entries at the bottom. Each ingest / lint run records what c
   `attention-as-value` caveat. Both index Maps got an **"Operator notes — crypto founders (second-hand;
   flagged)"** sub-group with the caveat; `nav` updated (2 under Startups, 3 under Success).
 - `mkdocs build --strict`: **pass**. **Published** (committed + pushed).
+
+## 2026-06-08 — New: Emotion vocabulary (granularity lexicon) under eq/
+
+- Ronald asked for a comprehensive, categorized emotion-word list with definitions to train **emotional
+  granularity** — operationalizing the existing `eq/emotional-granularity` note's "expand the vocabulary."
+- **Built via a multi-agent workflow** (30 agents, ~666k tokens): one generator per ~14 emotion families →
+  adversarial fact-check per family → completeness critic (+42 words, esp. positive/low-arousal/social/
+  cross-cultural blind spots) → science-framing agent. Dedup dropped 3 cross-family duplicates. I did a
+  light editorial cleanup (dropped 9 awkward auto-coinages; fixed 5 untranslatables that embedded the
+  language in the term) and assembled the pages from the structured JSON via a script.
+- **New cluster `eq/emotion-vocabulary/`** — hub + **7 family pages**, **~270 words total**, each with a
+  crisp definition, the **near-neighbour distinction** (the granularity payload), and a **valence · arousal**
+  tag (Russell's circumplex): `anger-and-disgust`, `fear-and-anxiety`, `sadness-and-loss`, `self-conscious`
+  (shame/guilt/pride), `joy-love-and-calm`, `interest-awe-and-hope`, `social-and-complex` (incl. cross-
+  cultural/untranslatable). Hub carries the science (Barrett granularity + constructed emotion; Lieberman
+  affect labeling), the organizing maps (Russell circumplex, Plutchik, Cowen & Keltner 27, Willcox wheel),
+  and a "how to practise" section. `source: cited`, `confidence: high`; a "this is a reference, not a one-
+  screen note" admonition flags the deliberate length exception.
+- Cross-linked into `eq/index` Map (section C · Awareness) and added **reciprocal backlinks** in
+  `eq/emotional-granularity` (Related + the How-to bullet) and links to `affect-labeling` /
+  `theory-of-constructed-emotion` / `reappraisal-vs-suppression`. `nav`: nested sub-group under Emotional
+  Intelligence.
+- `mkdocs build --strict`: **pass**. **Published** (committed + pushed).

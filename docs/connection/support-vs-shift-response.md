@@ -1,5 +1,5 @@
 ---
-tags: [connection, listening, focus]
+tags: [connection, listening]
 source: cited
 confidence: high
 updated: 2026-06-04
@@ -12,9 +12,6 @@ updated: 2026-06-04
 > I…"). Habitually shifting is "conversational narcissism," and it quietly starves connection.
 
 **Provenance:** `cited` · **Confidence:** high · **Updated:** 2026-06-04
-
-!!! danger "🎯 Personal focus — working on this"
-    My default is the **shift response** (pulling it back to me). Cue: when someone shares, my *first* reply should be a question about **their** thing — share mine only *after* they feel heard.
 
 ## What it is
 

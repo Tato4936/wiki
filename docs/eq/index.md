@@ -26,6 +26,7 @@ Status flags: ✅ well-supported · ⚠️ mixed / limited evidence · ⛔ conte
 
 ### C · Awareness — the upstream perception skill
 - [Emotional granularity](emotional-granularity.md) ✅ — finer emotion vocabulary, better regulation
+- [Emotion vocabulary (granularity lexicon)](emotion-vocabulary/index.md) ✅ — the practical tool: ~270 categorized, distinguished emotion words to train granularity
 - [Theory of constructed emotion](theory-of-constructed-emotion.md) ⚠️ — Barrett vs. basic-emotion theory (a live debate)
 - [Alexithymia](alexithymia.md) ✅ — the low end of emotional awareness
 

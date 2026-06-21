@@ -76,6 +76,15 @@ nav:
           - Nonviolent Communication: eq/nonviolent-communication.md
           - Polyvagal theory: eq/polyvagal-theory.md
           - The marshmallow test: eq/marshmallow-test.md
+          - "Emotion vocabulary (granularity lexicon)":
+              - Overview: eq/emotion-vocabulary/index.md
+              - Anger & disgust: eq/emotion-vocabulary/anger-and-disgust.md
+              - Fear & anxiety: eq/emotion-vocabulary/fear-and-anxiety.md
+              - Sadness, grief & loss: eq/emotion-vocabulary/sadness-and-loss.md
+              - Shame, guilt & pride: eq/emotion-vocabulary/self-conscious.md
+              - Joy, love & calm: eq/emotion-vocabulary/joy-love-and-calm.md
+              - Interest, awe & hope: eq/emotion-vocabulary/interest-awe-and-hope.md
+              - Social, complex & cross-cultural: eq/emotion-vocabulary/social-and-complex.md
       - "Connection & rapport":
           - Overview: connection/index.md
           - Perceived partner responsiveness: connection/perceived-partner-responsiveness.md

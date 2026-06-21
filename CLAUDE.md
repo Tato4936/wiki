@@ -134,16 +134,16 @@ Set per section, like the autonomy tier (§4). Levels:
 **"Done" signal:** a section is done-for-now when its Map covers its coverage tier; anything beyond sits
 in the **Backlog**, not the Map. Never pad a section to feel complete (value rule, §2).
 
-### Home page & personal-focus flags
+### Home page
 
-- **`docs/index.md` is a personal dashboard, not a manual.** It carries (1) a **🎯 What I'm working on**
-  list at the top, then (2) the four-domain map — and *nothing else*. The "what this wiki is / how to read
-  it" description lives in §1–§3 here and in `docs/about/conventions.md`; **do not** put it back on the
-  front page (Ronald finds it useless there).
-- **Personal-focus flag** — how Ronald marks notes he's actively practising. To flag a note: (a) add the
-  **`focus`** tag, (b) add a `!!! danger "🎯 Personal focus — working on this"` admonition with a
-  first-person, goal-framed cue, **and** (c) add a line to the home "What I'm working on" list. To unflag,
-  reverse all three. (`focus`-tagged notes also auto-collect on the Tags page.)
+- **`docs/index.md` is just the four-domain map** — a clean index of the domains and their sections, nothing
+  else. The "what this wiki is / how to read it" description lives in §1–§3 here and in
+  `docs/about/conventions.md`; **do not** put it back on the front page.
+- **Personal-focus layer removed (2026-06, privacy).** The site is public, so the old "🎯 What I'm working
+  on" home dashboard and the per-note `focus` tags + `!!! danger "🎯 Personal focus"` admonitions were
+  removed — they disclosed what Ronald is personally working on. **Do not re-add personal or confessional
+  content to the published site.** If a focus tracker is ever wanted, keep it private (local-only or a gated
+  page), never on the public wiki.
 
 ## 6. Operation — INGEST
 
