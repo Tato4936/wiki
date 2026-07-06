@@ -48,6 +48,11 @@ markdown_extensions:
   - def_list
   - toc: { permalink: true }
 
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/queue.js
+
 # Top level = four life domains (People / Mind / Body / Money & ambition), each grouping
 # the relevant sections. Files are NOT moved — this is purely navigational grouping.
 nav:
@@ -267,6 +272,7 @@ nav:
           - The compounding math: goals/the-compounding-math.md
           - The quantamental edge: goals/the-quantamental-edge.md
           - Honest odds & risks: goals/honest-odds-and-risks.md
+  - Research queue: queue.md
   - About:
       - Conventions: about/conventions.md
   - Tags: tags.md
